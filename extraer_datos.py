@@ -33,20 +33,38 @@ for row in ws.iter_rows(min_row=2, values_only=True):
     data[municipio]['comisiones_unicas'].add(comision_str)
     data[municipio]['personas'].append({'nombre': nombre_str, 'comision': comision_str})
 
-# ---- MEDELLIN 2 (col0=numero comision, col1=nombre) ----
-# Las comisiones son numeradas (1,2,3...) = auxiliares de Medellín
+# ---- MEDELLIN 2 (col0=comision, col1=nombre) ----
+# Comisiones: número = auxiliar, "Municipal"/"Municipal remante" = municipal, "Departamental N" = departamental
 ws2 = wb['MEDELLIN 2']
 municipio = 'MEDELLIN'
-data[municipio] = {'total_personas': 0, 'municipales': 0, 'auxiliares': 0,
+data[municipio] = {'total_personas': 0, 'municipales': 0, 'auxiliares': 0, 'departamentales': 0,
                    'comisiones_unicas': set(), 'personas': []}
 for row in ws2.iter_rows(min_row=2, values_only=True):
-    com_num = row[0]; nombre = row[1]
+    com_raw = row[0]; nombre = row[1]
     if not nombre:
         continue
     nombre_str = normalize(nombre)
-    comision_str = f'COMISION {com_num}' if com_num is not None else 'SIN COMISION'
+    com_str = normalize(str(com_raw)) if com_raw is not None else ''
+
+    # Clasificar tipo de comisión
+    if 'MUNICIPAL' in com_str:
+        tipo = 'municipal'
+        comision_str = com_str
+    elif 'DEPARTAMENTAL' in com_str:
+        tipo = 'departamental'
+        comision_str = com_str
+    else:
+        # Número = comisión auxiliar
+        tipo = 'auxiliar'
+        comision_str = f'AUXILIAR {com_raw}'
+
     data[municipio]['total_personas'] += 1
-    data[municipio]['auxiliares'] += 1
+    if tipo == 'municipal':
+        data[municipio]['municipales'] += 1
+    elif tipo == 'auxiliar':
+        data[municipio]['auxiliares'] += 1
+    elif tipo == 'departamental':
+        data[municipio]['departamentales'] += 1
     data[municipio]['comisiones_unicas'].add(comision_str)
     data[municipio]['personas'].append({'nombre': nombre_str, 'comision': comision_str})
 
@@ -57,6 +75,7 @@ for mun, d in data.items():
         'total_personas': d['total_personas'],
         'municipales': d['municipales'],
         'auxiliares': d['auxiliares'],
+        'departamentales': d.get('departamentales', 0),
         'total_comisiones': len(d['comisiones_unicas']),
         'comisiones': sorted(list(d['comisiones_unicas'])),
         'personas': d['personas']
@@ -71,4 +90,4 @@ with open(
 total = sum(d['total_personas'] for d in output.values())
 print(f'OK - Municipios: {len(output)}, Total personas: {total}')
 for mun, d in sorted(output.items()):
-    print(f'  {mun}: {d["total_personas"]} personas, {d["municipales"]} municipales, {d["auxiliares"]} auxiliares')
+    print(f'  {mun}: {d["total_personas"]} personas, {d["municipales"]} municipales, {d["auxiliares"]} auxiliares, {d["departamentales"]} departamentales')

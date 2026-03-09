@@ -177,16 +177,22 @@ function abrirDetalle(feature) {
     document.getElementById('det-titulo').innerHTML = '&#9876; ' + escHtml(mun);
 
     if (d) {
-        document.getElementById('det-resumen').innerHTML =
+        var resHtml =
             '<div style="background:#fef2f2;border-radius:4px;padding:5px;text-align:center;">' +
-            '<div style="font-size:1.2em;font-weight:700;color:#991b1b">' + d.total_comisiones + '</div>' +
-            '<div style="font-size:.65em;color:#666">Total Comisiones</div></div>' +
+            '<div style="font-size:1.2em;font-weight:700;color:#991b1b">' + d.total_personas + '</div>' +
+            '<div style="font-size:.65em;color:#666">Total Personas</div></div>' +
             '<div style="background:#fef9c3;border-radius:4px;padding:5px;text-align:center;">' +
             '<div style="font-size:1.2em;font-weight:700;color:#713f12">' + d.municipales + '</div>' +
             '<div style="font-size:.65em;color:#666">Municipales</div></div>' +
             '<div style="background:#f0fdf4;border-radius:4px;padding:5px;text-align:center;">' +
             '<div style="font-size:1.2em;font-weight:700;color:#166534">' + d.auxiliares + '</div>' +
             '<div style="font-size:.65em;color:#666">Auxiliares</div></div>';
+        if (d.departamentales && d.departamentales > 0) {
+            resHtml += '<div style="background:#eff6ff;border-radius:4px;padding:5px;text-align:center;grid-column:1/-1;">' +
+            '<div style="font-size:1.2em;font-weight:700;color:#1d4ed8">' + d.departamentales + '</div>' +
+            '<div style="font-size:.65em;color:#666">Departamentales</div></div>';
+        }
+        document.getElementById('det-resumen').innerHTML = resHtml;
 
         var byComision = {};
         d.personas.forEach(function(p) {

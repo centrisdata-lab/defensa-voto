@@ -3,6 +3,7 @@
     "total_personas": 3,
     "municipales": 1,
     "auxiliares": 2,
+    "departamentales": 0,
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -28,6 +29,7 @@
     "total_personas": 3,
     "municipales": 1,
     "auxiliares": 2,
+    "departamentales": 0,
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -53,6 +55,7 @@
     "total_personas": 9,
     "municipales": 1,
     "auxiliares": 8,
+    "departamentales": 0,
     "total_comisiones": 9,
     "comisiones": [
       "AUXILIAR 1",
@@ -108,6 +111,7 @@
     "total_personas": 4,
     "municipales": 1,
     "auxiliares": 3,
+    "departamentales": 0,
     "total_comisiones": 4,
     "comisiones": [
       "AUXILIAR 1",
@@ -138,6 +142,7 @@
     "total_personas": 25,
     "municipales": 1,
     "auxiliares": 24,
+    "departamentales": 0,
     "total_comisiones": 25,
     "comisiones": [
       "AUXILIAR 1",
@@ -273,6 +278,7 @@
     "total_personas": 6,
     "municipales": 1,
     "auxiliares": 5,
+    "departamentales": 0,
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -313,6 +319,7 @@
     "total_personas": 5,
     "municipales": 1,
     "auxiliares": 4,
+    "departamentales": 0,
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -348,6 +355,7 @@
     "total_personas": 6,
     "municipales": 1,
     "auxiliares": 5,
+    "departamentales": 0,
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -388,6 +396,7 @@
     "total_personas": 6,
     "municipales": 1,
     "auxiliares": 5,
+    "departamentales": 0,
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -428,6 +437,7 @@
     "total_personas": 2,
     "municipales": 2,
     "auxiliares": 0,
+    "departamentales": 0,
     "total_comisiones": 2,
     "comisiones": [
       "MUNICIPAL",
@@ -448,6 +458,7 @@
     "total_personas": 6,
     "municipales": 1,
     "auxiliares": 5,
+    "departamentales": 0,
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -488,6 +499,7 @@
     "total_personas": 5,
     "municipales": 1,
     "auxiliares": 4,
+    "departamentales": 0,
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -523,6 +535,7 @@
     "total_personas": 12,
     "municipales": 1,
     "auxiliares": 11,
+    "departamentales": 0,
     "total_comisiones": 12,
     "comisiones": [
       "AUXILIAR 1",
@@ -593,6 +606,7 @@
     "total_personas": 5,
     "municipales": 1,
     "auxiliares": 4,
+    "departamentales": 0,
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -628,6 +642,7 @@
     "total_personas": 4,
     "municipales": 2,
     "auxiliares": 2,
+    "departamentales": 0,
     "total_comisiones": 4,
     "comisiones": [
       "AUXILIAR 1",
@@ -658,6 +673,7 @@
     "total_personas": 20,
     "municipales": 1,
     "auxiliares": 19,
+    "departamentales": 0,
     "total_comisiones": 20,
     "comisiones": [
       "AUXILIAR 1",
@@ -768,6 +784,7 @@
     "total_personas": 5,
     "municipales": 1,
     "auxiliares": 4,
+    "departamentales": 0,
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -803,6 +820,7 @@
     "total_personas": 5,
     "municipales": 1,
     "auxiliares": 4,
+    "departamentales": 0,
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -838,6 +856,7 @@
     "total_personas": 3,
     "municipales": 1,
     "auxiliares": 2,
+    "departamentales": 0,
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -863,6 +882,7 @@
     "total_personas": 9,
     "municipales": 1,
     "auxiliares": 8,
+    "departamentales": 0,
     "total_comisiones": 9,
     "comisiones": [
       "AUXILIAR 1",
@@ -918,6 +938,7 @@
     "total_personas": 4,
     "municipales": 1,
     "auxiliares": 3,
+    "departamentales": 0,
     "total_comisiones": 4,
     "comisiones": [
       "AUXILIAR 1",
@@ -948,6 +969,7 @@
     "total_personas": 9,
     "municipales": 1,
     "auxiliares": 8,
+    "departamentales": 0,
     "total_comisiones": 9,
     "comisiones": [
       "AUXILIAR 1",
@@ -1003,6 +1025,7 @@
     "total_personas": 6,
     "municipales": 1,
     "auxiliares": 5,
+    "departamentales": 0,
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -1043,6 +1066,7 @@
     "total_personas": 3,
     "municipales": 1,
     "auxiliares": 2,
+    "departamentales": 0,
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -1068,6 +1092,7 @@
     "total_personas": 3,
     "municipales": 1,
     "auxiliares": 2,
+    "departamentales": 0,
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -1093,6 +1118,7 @@
     "total_personas": 5,
     "municipales": 2,
     "auxiliares": 3,
+    "departamentales": 0,
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -1128,6 +1154,7 @@
     "total_personas": 1,
     "municipales": 1,
     "auxiliares": 0,
+    "departamentales": 0,
     "total_comisiones": 1,
     "comisiones": [
       "MUNICIPAL"
@@ -1143,6 +1170,7 @@
     "total_personas": 6,
     "municipales": 1,
     "auxiliares": 5,
+    "departamentales": 0,
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -1181,586 +1209,587 @@
   },
   "MEDELLIN": {
     "total_personas": 115,
-    "municipales": 0,
-    "auxiliares": 115,
+    "municipales": 2,
+    "auxiliares": 108,
+    "departamentales": 5,
     "total_comisiones": 115,
     "comisiones": [
-      "COMISION 10",
-      "COMISION 100",
-      "COMISION 101",
-      "COMISION 102",
-      "COMISION 103",
-      "COMISION 104",
-      "COMISION 105",
-      "COMISION 106",
-      "COMISION 108",
-      "COMISION 109",
-      "COMISION 11",
-      "COMISION 110",
-      "COMISION 111",
-      "COMISION 112",
-      "COMISION 113",
-      "COMISION 114",
-      "COMISION 115",
-      "COMISION 118",
-      "COMISION 12",
-      "COMISION 120",
-      "COMISION 14",
-      "COMISION 15",
-      "COMISION 16",
-      "COMISION 17",
-      "COMISION 18",
-      "COMISION 19",
-      "COMISION 20",
-      "COMISION 21",
-      "COMISION 22",
-      "COMISION 23",
-      "COMISION 24",
-      "COMISION 25",
-      "COMISION 26",
-      "COMISION 27",
-      "COMISION 28",
-      "COMISION 29",
-      "COMISION 3",
-      "COMISION 30",
-      "COMISION 31",
-      "COMISION 32",
-      "COMISION 33",
-      "COMISION 34",
-      "COMISION 36",
-      "COMISION 37",
-      "COMISION 38",
-      "COMISION 39",
-      "COMISION 40",
-      "COMISION 41",
-      "COMISION 42",
-      "COMISION 43",
-      "COMISION 44",
-      "COMISION 45",
-      "COMISION 46",
-      "COMISION 47",
-      "COMISION 48",
-      "COMISION 49",
-      "COMISION 5",
-      "COMISION 50",
-      "COMISION 51",
-      "COMISION 52",
-      "COMISION 53",
-      "COMISION 54",
-      "COMISION 55",
-      "COMISION 56",
-      "COMISION 57",
-      "COMISION 59",
-      "COMISION 6",
-      "COMISION 60",
-      "COMISION 61",
-      "COMISION 62",
-      "COMISION 63",
-      "COMISION 64",
-      "COMISION 65",
-      "COMISION 66",
-      "COMISION 67",
-      "COMISION 68",
-      "COMISION 69",
-      "COMISION 7",
-      "COMISION 70",
-      "COMISION 71",
-      "COMISION 72",
-      "COMISION 73",
-      "COMISION 74",
-      "COMISION 76",
-      "COMISION 77",
-      "COMISION 78",
-      "COMISION 79",
-      "COMISION 8",
-      "COMISION 80",
-      "COMISION 81",
-      "COMISION 82",
-      "COMISION 83",
-      "COMISION 84",
-      "COMISION 85",
-      "COMISION 86",
-      "COMISION 87",
-      "COMISION 88",
-      "COMISION 89",
-      "COMISION 9",
-      "COMISION 90",
-      "COMISION 91",
-      "COMISION 92",
-      "COMISION 93",
-      "COMISION 94",
-      "COMISION 95",
-      "COMISION 96",
-      "COMISION 97",
-      "COMISION 99",
-      "COMISION Departamental 1",
-      "COMISION Departamental 2",
-      "COMISION Departamental 3",
-      "COMISION Departamental 4",
-      "COMISION Departamental 5",
-      "COMISION Municipal",
-      "COMISION Municipal remante"
+      "AUXILIAR 10",
+      "AUXILIAR 100",
+      "AUXILIAR 101",
+      "AUXILIAR 102",
+      "AUXILIAR 103",
+      "AUXILIAR 104",
+      "AUXILIAR 105",
+      "AUXILIAR 106",
+      "AUXILIAR 108",
+      "AUXILIAR 109",
+      "AUXILIAR 11",
+      "AUXILIAR 110",
+      "AUXILIAR 111",
+      "AUXILIAR 112",
+      "AUXILIAR 113",
+      "AUXILIAR 114",
+      "AUXILIAR 115",
+      "AUXILIAR 118",
+      "AUXILIAR 12",
+      "AUXILIAR 120",
+      "AUXILIAR 14",
+      "AUXILIAR 15",
+      "AUXILIAR 16",
+      "AUXILIAR 17",
+      "AUXILIAR 18",
+      "AUXILIAR 19",
+      "AUXILIAR 20",
+      "AUXILIAR 21",
+      "AUXILIAR 22",
+      "AUXILIAR 23",
+      "AUXILIAR 24",
+      "AUXILIAR 25",
+      "AUXILIAR 26",
+      "AUXILIAR 27",
+      "AUXILIAR 28",
+      "AUXILIAR 29",
+      "AUXILIAR 3",
+      "AUXILIAR 30",
+      "AUXILIAR 31",
+      "AUXILIAR 32",
+      "AUXILIAR 33",
+      "AUXILIAR 34",
+      "AUXILIAR 36",
+      "AUXILIAR 37",
+      "AUXILIAR 38",
+      "AUXILIAR 39",
+      "AUXILIAR 40",
+      "AUXILIAR 41",
+      "AUXILIAR 42",
+      "AUXILIAR 43",
+      "AUXILIAR 44",
+      "AUXILIAR 45",
+      "AUXILIAR 46",
+      "AUXILIAR 47",
+      "AUXILIAR 48",
+      "AUXILIAR 49",
+      "AUXILIAR 5",
+      "AUXILIAR 50",
+      "AUXILIAR 51",
+      "AUXILIAR 52",
+      "AUXILIAR 53",
+      "AUXILIAR 54",
+      "AUXILIAR 55",
+      "AUXILIAR 56",
+      "AUXILIAR 57",
+      "AUXILIAR 59",
+      "AUXILIAR 6",
+      "AUXILIAR 60",
+      "AUXILIAR 61",
+      "AUXILIAR 62",
+      "AUXILIAR 63",
+      "AUXILIAR 64",
+      "AUXILIAR 65",
+      "AUXILIAR 66",
+      "AUXILIAR 67",
+      "AUXILIAR 68",
+      "AUXILIAR 69",
+      "AUXILIAR 7",
+      "AUXILIAR 70",
+      "AUXILIAR 71",
+      "AUXILIAR 72",
+      "AUXILIAR 73",
+      "AUXILIAR 74",
+      "AUXILIAR 76",
+      "AUXILIAR 77",
+      "AUXILIAR 78",
+      "AUXILIAR 79",
+      "AUXILIAR 8",
+      "AUXILIAR 80",
+      "AUXILIAR 81",
+      "AUXILIAR 82",
+      "AUXILIAR 83",
+      "AUXILIAR 84",
+      "AUXILIAR 85",
+      "AUXILIAR 86",
+      "AUXILIAR 87",
+      "AUXILIAR 88",
+      "AUXILIAR 89",
+      "AUXILIAR 9",
+      "AUXILIAR 90",
+      "AUXILIAR 91",
+      "AUXILIAR 92",
+      "AUXILIAR 93",
+      "AUXILIAR 94",
+      "AUXILIAR 95",
+      "AUXILIAR 96",
+      "AUXILIAR 97",
+      "AUXILIAR 99",
+      "DEPARTAMENTAL 1",
+      "DEPARTAMENTAL 2",
+      "DEPARTAMENTAL 3",
+      "DEPARTAMENTAL 4",
+      "DEPARTAMENTAL 5",
+      "MUNICIPAL",
+      "MUNICIPAL REMANTE"
     ],
     "personas": [
       {
         "nombre": "DAVID ESTEBAN MARTINEZ MORENO",
-        "comision": "COMISION 3"
+        "comision": "AUXILIAR 3"
       },
       {
         "nombre": "JHON JAIRO MONSALVE",
-        "comision": "COMISION 5"
+        "comision": "AUXILIAR 5"
       },
       {
         "nombre": "ADOLFO LEON ECHEVERRI ESPINOSA",
-        "comision": "COMISION 6"
+        "comision": "AUXILIAR 6"
       },
       {
         "nombre": "GERMAN GONZALEZ CONTRERAS",
-        "comision": "COMISION 7"
+        "comision": "AUXILIAR 7"
       },
       {
         "nombre": "OSCAR DAVID LOPERA ARENAS",
-        "comision": "COMISION 8"
+        "comision": "AUXILIAR 8"
       },
       {
         "nombre": "GERLI PADILLA CORDERO",
-        "comision": "COMISION 9"
+        "comision": "AUXILIAR 9"
       },
       {
         "nombre": "JOHN DARIO VIERA MARRUGO",
-        "comision": "COMISION 10"
+        "comision": "AUXILIAR 10"
       },
       {
         "nombre": "DENNY JUDITH MENDEZ GALLEGO",
-        "comision": "COMISION 11"
+        "comision": "AUXILIAR 11"
       },
       {
         "nombre": "HENRY ANDRES BUITRAGO RAMIREZ",
-        "comision": "COMISION 12"
+        "comision": "AUXILIAR 12"
       },
       {
         "nombre": "MARTHA OFELIA RAMIREZ ZULUAGA",
-        "comision": "COMISION 14"
+        "comision": "AUXILIAR 14"
       },
       {
         "nombre": "JUDITH FRANCEDY GALLEGO",
-        "comision": "COMISION 15"
+        "comision": "AUXILIAR 15"
       },
       {
         "nombre": "MARTHA ALICIA MORA GIL",
-        "comision": "COMISION 16"
+        "comision": "AUXILIAR 16"
       },
       {
         "nombre": "INELDA GOMEZ CARRASCAL",
-        "comision": "COMISION 17"
+        "comision": "AUXILIAR 17"
       },
       {
         "nombre": "LIBIA YASMIN HOYOS GALLEGO",
-        "comision": "COMISION 18"
+        "comision": "AUXILIAR 18"
       },
       {
         "nombre": "GLADYS MONICA BOJACA ORREGO",
-        "comision": "COMISION 19"
+        "comision": "AUXILIAR 19"
       },
       {
         "nombre": "JUDITH DALILA ALZATE RESTREPO",
-        "comision": "COMISION 20"
+        "comision": "AUXILIAR 20"
       },
       {
         "nombre": "ANDRES FELIPE ALVAREZ SUAREZ",
-        "comision": "COMISION 21"
+        "comision": "AUXILIAR 21"
       },
       {
         "nombre": "MARTHA LUCIA MORA SANCHEZ",
-        "comision": "COMISION 22"
+        "comision": "AUXILIAR 22"
       },
       {
         "nombre": "LUZ ESTELLA GALLO MONSALVE",
-        "comision": "COMISION 23"
+        "comision": "AUXILIAR 23"
       },
       {
         "nombre": "DEYANIRA URRUTIA RAPELINO",
-        "comision": "COMISION 24"
+        "comision": "AUXILIAR 24"
       },
       {
         "nombre": "HILDA LUZ VASQUEZ PIEDRAHITA",
-        "comision": "COMISION 25"
+        "comision": "AUXILIAR 25"
       },
       {
         "nombre": "JOSE AVELINO PALACIOS PALACIOS",
-        "comision": "COMISION 26"
+        "comision": "AUXILIAR 26"
       },
       {
         "nombre": "MARIA MERCEDES DAVID USUGA",
-        "comision": "COMISION 27"
+        "comision": "AUXILIAR 27"
       },
       {
         "nombre": "OSCAR DAVID LOPERA ARENAS",
-        "comision": "COMISION 28"
+        "comision": "AUXILIAR 28"
       },
       {
         "nombre": "DAVID ESTEBAN MARTINEZ MORENO",
-        "comision": "COMISION 29"
+        "comision": "AUXILIAR 29"
       },
       {
         "nombre": "LILIANA DEL PILAR MONSALVE JIMENEZ",
-        "comision": "COMISION 30"
+        "comision": "AUXILIAR 30"
       },
       {
         "nombre": "GERLI PADILLA CORDERO",
-        "comision": "COMISION 31"
+        "comision": "AUXILIAR 31"
       },
       {
         "nombre": "JOHN JAIRO MUNOZ ALVAREZ",
-        "comision": "COMISION 32"
+        "comision": "AUXILIAR 32"
       },
       {
         "nombre": "PAULA ANDREA RESTREPO ALZATE",
-        "comision": "COMISION 33"
+        "comision": "AUXILIAR 33"
       },
       {
         "nombre": "GICELA ANDREA SOTO ALZATE",
-        "comision": "COMISION 34"
+        "comision": "AUXILIAR 34"
       },
       {
         "nombre": "MELVA MAGDALENA BEDOYA HENAO",
-        "comision": "COMISION 36"
+        "comision": "AUXILIAR 36"
       },
       {
         "nombre": "LAURA ALEJANDRA ANDRADE GARCIA",
-        "comision": "COMISION 37"
+        "comision": "AUXILIAR 37"
       },
       {
         "nombre": "JUAN ALEJANDRO GARCIA FLOREZ",
-        "comision": "COMISION 38"
+        "comision": "AUXILIAR 38"
       },
       {
         "nombre": "FRESIA MABEL ATEHORTUA RESTREPO",
-        "comision": "COMISION 39"
+        "comision": "AUXILIAR 39"
       },
       {
         "nombre": "WINNY SANDRITH DOMINGUEZ GARRIDO",
-        "comision": "COMISION 40"
+        "comision": "AUXILIAR 40"
       },
       {
         "nombre": "VICTORIA ELENA CORDOBA RUIZ",
-        "comision": "COMISION 41"
+        "comision": "AUXILIAR 41"
       },
       {
         "nombre": "NORMA IRELIA BOLIVAR PENA",
-        "comision": "COMISION 42"
+        "comision": "AUXILIAR 42"
       },
       {
         "nombre": "AIDA ROSA PONTON RIVERA",
-        "comision": "COMISION 43"
+        "comision": "AUXILIAR 43"
       },
       {
         "nombre": "LUZ MARINA COLORADO",
-        "comision": "COMISION 44"
+        "comision": "AUXILIAR 44"
       },
       {
         "nombre": "MARTHA LUCIA PELAEZ CARDONA",
-        "comision": "COMISION 45"
+        "comision": "AUXILIAR 45"
       },
       {
         "nombre": "CRUZ MERCY MELO VARGAS",
-        "comision": "COMISION 46"
+        "comision": "AUXILIAR 46"
       },
       {
         "nombre": "VICTOR ALFONSO MARMOLEJO CORDOBA",
-        "comision": "COMISION 47"
+        "comision": "AUXILIAR 47"
       },
       {
         "nombre": "MARIA MISGLEIS MURILLO REYES",
-        "comision": "COMISION 48"
+        "comision": "AUXILIAR 48"
       },
       {
         "nombre": "ERNESTO BERNAL ORTIZ",
-        "comision": "COMISION 49"
+        "comision": "AUXILIAR 49"
       },
       {
         "nombre": "ZULMARINA TORRES CUESTA",
-        "comision": "COMISION 50"
+        "comision": "AUXILIAR 50"
       },
       {
         "nombre": "MELVA TRESPALACIO RUIZ",
-        "comision": "COMISION 51"
+        "comision": "AUXILIAR 51"
       },
       {
         "nombre": "SONIA ESTHER ESCOBAR DIAZ",
-        "comision": "COMISION 52"
+        "comision": "AUXILIAR 52"
       },
       {
         "nombre": "MARIA RUBIELA RUIZ FLOREZ",
-        "comision": "COMISION 53"
+        "comision": "AUXILIAR 53"
       },
       {
         "nombre": "LUZ MARINA PEREA ORTIZ",
-        "comision": "COMISION 54"
+        "comision": "AUXILIAR 54"
       },
       {
         "nombre": "ODALIS DEL SOCORRO SAENZ GIL",
-        "comision": "COMISION 55"
+        "comision": "AUXILIAR 55"
       },
       {
         "nombre": "MARIA EDIT CABRERA ORTIZ",
-        "comision": "COMISION 56"
+        "comision": "AUXILIAR 56"
       },
       {
         "nombre": "MARTHA PATRICIA RENDON DIAZ",
-        "comision": "COMISION 57"
+        "comision": "AUXILIAR 57"
       },
       {
         "nombre": "DORINDA DE JESUS TAPASCO ANDUQUIA",
-        "comision": "COMISION 59"
+        "comision": "AUXILIAR 59"
       },
       {
         "nombre": "PAULA ANDREA MONTOYA RODRIGUEZ",
-        "comision": "COMISION 60"
+        "comision": "AUXILIAR 60"
       },
       {
         "nombre": "NURY HAIDE LEZCANO CARDENAS",
-        "comision": "COMISION 61"
+        "comision": "AUXILIAR 61"
       },
       {
         "nombre": "GERMAN GONZALEZ CONTRERAS",
-        "comision": "COMISION 62"
+        "comision": "AUXILIAR 62"
       },
       {
         "nombre": "LINA MARCELA GIRALDO RAMIREZ",
-        "comision": "COMISION 63"
+        "comision": "AUXILIAR 63"
       },
       {
         "nombre": "JHON JAIRO MONSALVE",
-        "comision": "COMISION 64"
+        "comision": "AUXILIAR 64"
       },
       {
         "nombre": "YUDY ANGELICA RUIZ RIOS",
-        "comision": "COMISION 65"
+        "comision": "AUXILIAR 65"
       },
       {
         "nombre": "MAGNOLIA DEL SOCORRO ALCARAZ ALCARAZ",
-        "comision": "COMISION 66"
+        "comision": "AUXILIAR 66"
       },
       {
         "nombre": "KELLY JOHANA LOPEZ GOMEZ",
-        "comision": "COMISION 67"
+        "comision": "AUXILIAR 67"
       },
       {
         "nombre": "YOLANDA OBREGON MENA",
-        "comision": "COMISION 68"
+        "comision": "AUXILIAR 68"
       },
       {
         "nombre": "ADOLFO LEON ECHEVERRI ESPINOSA",
-        "comision": "COMISION 69"
+        "comision": "AUXILIAR 69"
       },
       {
         "nombre": "VIVIANA ARIAS LOAIZA",
-        "comision": "COMISION 70"
+        "comision": "AUXILIAR 70"
       },
       {
         "nombre": "BIBIANA MARIA HERNANDEZ SIERRA",
-        "comision": "COMISION 71"
+        "comision": "AUXILIAR 71"
       },
       {
         "nombre": "GLORIA ESPERANZA GOMEZ ARIAS",
-        "comision": "COMISION 72"
+        "comision": "AUXILIAR 72"
       },
       {
         "nombre": "HILDA MARIA CANO HEREDIA",
-        "comision": "COMISION 73"
+        "comision": "AUXILIAR 73"
       },
       {
         "nombre": "MARLENY DEL SOCORRO MUNOZ QUINTERO",
-        "comision": "COMISION 74"
+        "comision": "AUXILIAR 74"
       },
       {
         "nombre": "MARIA LUCELY QUINTERO TORO",
-        "comision": "COMISION 76"
+        "comision": "AUXILIAR 76"
       },
       {
         "nombre": "CLAUDIA PATRICIA GONZALEZ MUNETON",
-        "comision": "COMISION 77"
+        "comision": "AUXILIAR 77"
       },
       {
         "nombre": "LEONARDO JOSE RODRIGUEZ ANAYA",
-        "comision": "COMISION 78"
+        "comision": "AUXILIAR 78"
       },
       {
         "nombre": "MARIA EUGENIA ZAPATA GIRALDO",
-        "comision": "COMISION 79"
+        "comision": "AUXILIAR 79"
       },
       {
         "nombre": "ANA MILENA MENA ROJAS",
-        "comision": "COMISION 80"
+        "comision": "AUXILIAR 80"
       },
       {
         "nombre": "YANETH BLANCO TRIVINO",
-        "comision": "COMISION 81"
+        "comision": "AUXILIAR 81"
       },
       {
         "nombre": "LUZ DARY DE JESUS VERGARA MUNOZ",
-        "comision": "COMISION 82"
+        "comision": "AUXILIAR 82"
       },
       {
         "nombre": "MARIA VICTORIA AGUIRRE JARAMILLO",
-        "comision": "COMISION 83"
+        "comision": "AUXILIAR 83"
       },
       {
         "nombre": "LUIS MIGUEL MARQUEZ DIAZ",
-        "comision": "COMISION 84"
+        "comision": "AUXILIAR 84"
       },
       {
         "nombre": "YINA MARIA TAMAYO DORIA",
-        "comision": "COMISION 85"
+        "comision": "AUXILIAR 85"
       },
       {
         "nombre": "GLORIA PATRICIA LOPEZ VELASQUEZ",
-        "comision": "COMISION 86"
+        "comision": "AUXILIAR 86"
       },
       {
         "nombre": "HENRY ANDRES BUITRAGO RAMIREZ",
-        "comision": "COMISION 87"
+        "comision": "AUXILIAR 87"
       },
       {
         "nombre": "ESPERANZA DOREY MEJIA VILLA",
-        "comision": "COMISION 88"
+        "comision": "AUXILIAR 88"
       },
       {
         "nombre": "LUZ ENID HERNANDEZ GUERRA",
-        "comision": "COMISION 89"
+        "comision": "AUXILIAR 89"
       },
       {
         "nombre": "LINA PENA ARANGO",
-        "comision": "COMISION 90"
+        "comision": "AUXILIAR 90"
       },
       {
         "nombre": "YOHSMAR EDITH CORTES RUIZ",
-        "comision": "COMISION 91"
+        "comision": "AUXILIAR 91"
       },
       {
         "nombre": "MARIA ELENA ESPINOSA ARBOLEDA",
-        "comision": "COMISION 92"
+        "comision": "AUXILIAR 92"
       },
       {
         "nombre": "LEYDIS HURTADO PEREZ",
-        "comision": "COMISION 93"
+        "comision": "AUXILIAR 93"
       },
       {
         "nombre": "LUZ AIDE RODRIGUEZ BEDOYA",
-        "comision": "COMISION 94"
+        "comision": "AUXILIAR 94"
       },
       {
         "nombre": "CLAUDIA GILMA BETANCUR PABON",
-        "comision": "COMISION 95"
+        "comision": "AUXILIAR 95"
       },
       {
         "nombre": "ELIZABETH CRISTINA MESA PEREZ",
-        "comision": "COMISION 96"
+        "comision": "AUXILIAR 96"
       },
       {
         "nombre": "OSLEIDA PALACIOS CUESTA",
-        "comision": "COMISION 97"
+        "comision": "AUXILIAR 97"
       },
       {
         "nombre": "SERGIO ALEXANDER AREVALO DIAZ",
-        "comision": "COMISION 99"
+        "comision": "AUXILIAR 99"
       },
       {
         "nombre": "PATRICIA ELENA RESTREPO ALZATE",
-        "comision": "COMISION 100"
+        "comision": "AUXILIAR 100"
       },
       {
         "nombre": "LILIANA PATRICIA DURANGO ESCOBAR",
-        "comision": "COMISION 101"
+        "comision": "AUXILIAR 101"
       },
       {
         "nombre": "LILIANA PATRICIA SANCHEZ MENA",
-        "comision": "COMISION 102"
+        "comision": "AUXILIAR 102"
       },
       {
         "nombre": "JOSE ALEJANDRO RESTREPO GIRALDO",
-        "comision": "COMISION 103"
+        "comision": "AUXILIAR 103"
       },
       {
         "nombre": "LYDA MARITZA DAZA CIFUENTES",
-        "comision": "COMISION 104"
+        "comision": "AUXILIAR 104"
       },
       {
         "nombre": "JOHN DARIO VIERA MARRUGO",
-        "comision": "COMISION 105"
+        "comision": "AUXILIAR 105"
       },
       {
         "nombre": "CLARA INES ARRIETA ARGUMEDO",
-        "comision": "COMISION 106"
+        "comision": "AUXILIAR 106"
       },
       {
         "nombre": "ZENIA MARIA MENA ABADIA",
-        "comision": "COMISION 108"
+        "comision": "AUXILIAR 108"
       },
       {
         "nombre": "CLAUDIA CECILIA SANCHEZ MARIN",
-        "comision": "COMISION 109"
+        "comision": "AUXILIAR 109"
       },
       {
         "nombre": "SONIA ESPERANZA FLOREZ BETANCUR",
-        "comision": "COMISION 110"
+        "comision": "AUXILIAR 110"
       },
       {
         "nombre": "ANGIE ANDREA ALMARALES GONZALEZ",
-        "comision": "COMISION 111"
+        "comision": "AUXILIAR 111"
       },
       {
         "nombre": "JOSE ALEJANDRO RESTREPO GIRALDO",
-        "comision": "COMISION 112"
+        "comision": "AUXILIAR 112"
       },
       {
         "nombre": "MARIA EUGENIA BETANCUR RESTREPO",
-        "comision": "COMISION 113"
+        "comision": "AUXILIAR 113"
       },
       {
         "nombre": "ANDRES FELIPE ALVAREZ SUAREZ",
-        "comision": "COMISION 114"
+        "comision": "AUXILIAR 114"
       },
       {
         "nombre": "NORA STELLA ZAPATA AGUILAR",
-        "comision": "COMISION 115"
+        "comision": "AUXILIAR 115"
       },
       {
         "nombre": "GEPSI JANET QUINTERO CANO",
-        "comision": "COMISION 118"
+        "comision": "AUXILIAR 118"
       },
       {
         "nombre": "MARIA ANGELICA GARCIA GIRALDO",
-        "comision": "COMISION 120"
+        "comision": "AUXILIAR 120"
       },
       {
         "nombre": "JUAN FELIPE BETANCUR CORRALES",
-        "comision": "COMISION Municipal"
+        "comision": "MUNICIPAL"
       },
       {
         "nombre": "LISETH RODRIGUEZ ISAZA",
-        "comision": "COMISION Municipal remante"
+        "comision": "MUNICIPAL REMANTE"
       },
       {
         "nombre": "EBOLY EDITH ARRIAGA RAMIREZ",
-        "comision": "COMISION Departamental 1"
+        "comision": "DEPARTAMENTAL 1"
       },
       {
         "nombre": "KELLY JOHANA LOPEZ GOMEZ",
-        "comision": "COMISION Departamental 2"
+        "comision": "DEPARTAMENTAL 2"
       },
       {
         "nombre": "JOHN JAIRO MUNOZ ALVAREZ",
-        "comision": "COMISION Departamental 3"
+        "comision": "DEPARTAMENTAL 3"
       },
       {
         "nombre": "JUAN FELIPE BETANCUR CORRALES",
-        "comision": "COMISION Departamental 4"
+        "comision": "DEPARTAMENTAL 4"
       },
       {
         "nombre": "LILIANA PATRICIA DURANGO ESCOBAR",
-        "comision": "COMISION Departamental 5"
+        "comision": "DEPARTAMENTAL 5"
       }
     ]
   }
