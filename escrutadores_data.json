@@ -1,0 +1,1822 @@
+{
+  "AMAGA": {
+    "total_personas": 3,
+    "municipales": 1,
+    "auxiliares": 2,
+    "total_comisiones": 3,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "JULIO CESAR VALENCIA BEDOYA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "ELISABETH HOLGUIN DELGADO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "JULIO CESAR VALENCIA BEDOYA",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "AMALFI": {
+    "total_personas": 3,
+    "municipales": 1,
+    "auxiliares": 2,
+    "total_comisiones": 3,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "CARLOS ALBERTO TAMAYO CASTANEDA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "YOLANDA DEL SOCORRO MIRA QUINTERO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "ADRIAN GONZALO PEREZ MENESES",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "APARTADO": {
+    "total_personas": 9,
+    "municipales": 1,
+    "auxiliares": 8,
+    "total_comisiones": 9,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "AUXILIAR 6",
+      "AUXILIAR 7",
+      "AUXILIAR 8",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "DINA MARIA CAMPO GIRALDO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "OVANIS MARIA DEL CARMEN GUTIERREZ GARCIA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "IVAN DARIO SALAZAR VILLEGAS",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "DEICY DEL CARMEN RAMOS GARCIA",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "LINA SULEYMA HINESTROZA PALACIO",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "VALENTINA CORRALES ZAPATA",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "LUIS FERNANDO SANCHEZ NIEVES",
+        "comision": "AUXILIAR 6"
+      },
+      {
+        "nombre": "CRISTIAN BLANDON PEREZ",
+        "comision": "AUXILIAR 7"
+      },
+      {
+        "nombre": "DINA MARIA CAMPO GIRALDO",
+        "comision": "AUXILIAR 8"
+      }
+    ]
+  },
+  "BARBOSA": {
+    "total_personas": 4,
+    "municipales": 1,
+    "auxiliares": 3,
+    "total_comisiones": 4,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "YUDY ANDREA JARAMILLO AREIZA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "YASMIN ANDREA MOLINA ZAPATA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "YASMIN ANDREA MOLINA ZAPATA",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "YUDY ANDREA JARAMILLO AREIZA",
+        "comision": "AUXILIAR 3"
+      }
+    ]
+  },
+  "BELLO": {
+    "total_personas": 25,
+    "municipales": 1,
+    "auxiliares": 24,
+    "total_comisiones": 25,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 10",
+      "AUXILIAR 11",
+      "AUXILIAR 12",
+      "AUXILIAR 13",
+      "AUXILIAR 14",
+      "AUXILIAR 15",
+      "AUXILIAR 16",
+      "AUXILIAR 17",
+      "AUXILIAR 18",
+      "AUXILIAR 19",
+      "AUXILIAR 2",
+      "AUXILIAR 20",
+      "AUXILIAR 21",
+      "AUXILIAR 22",
+      "AUXILIAR 23",
+      "AUXILIAR 24",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "AUXILIAR 6",
+      "AUXILIAR 7",
+      "AUXILIAR 8",
+      "AUXILIAR 9",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "BAYRON AICARDO DUQUE RAMOS",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "JAVIER ALZATE LEIVA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "LUZ MYRIAM TABARES MORENO",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "MERYLYN MARROQUIN ACEVEDO",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "ANGELA ANDREA LOPERA DAVID",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "CLAUDIA MILENA QUICENO CARDONA",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "WILMAR VILLEGAS GONZALEZ",
+        "comision": "AUXILIAR 6"
+      },
+      {
+        "nombre": "JAIRO DE JESUS GUZMAN RINCON",
+        "comision": "AUXILIAR 7"
+      },
+      {
+        "nombre": "JOHN ALEXANDER BUITRAGO SANCHEZ",
+        "comision": "AUXILIAR 8"
+      },
+      {
+        "nombre": "MARIA ELIDE RIOS PINEDA",
+        "comision": "AUXILIAR 9"
+      },
+      {
+        "nombre": "RODRIGO CORREA ORTIZ",
+        "comision": "AUXILIAR 10"
+      },
+      {
+        "nombre": "LUIS FERNANDO OCHOA VILLA",
+        "comision": "AUXILIAR 11"
+      },
+      {
+        "nombre": "LUZ CARINE HERRERA CATANO",
+        "comision": "AUXILIAR 12"
+      },
+      {
+        "nombre": "VICTOR HUGO RIVERA VILLEGAS",
+        "comision": "AUXILIAR 13"
+      },
+      {
+        "nombre": "ADRIANA MARIA ORTEGA GARCIA",
+        "comision": "AUXILIAR 14"
+      },
+      {
+        "nombre": "BETTY DEL CARMEN ARISTIZABAL BETANCUR",
+        "comision": "AUXILIAR 15"
+      },
+      {
+        "nombre": "SANDRA MILENA GUZMAN ECHAVARRIA",
+        "comision": "AUXILIAR 16"
+      },
+      {
+        "nombre": "DIDIER LONDONO DIAZ",
+        "comision": "AUXILIAR 17"
+      },
+      {
+        "nombre": "PAOLA ATEHORTUA MARTINEZ",
+        "comision": "AUXILIAR 18"
+      },
+      {
+        "nombre": "FARID YANET ALZATE RESTREPO",
+        "comision": "AUXILIAR 19"
+      },
+      {
+        "nombre": "MORELIA VIDALES SILVA",
+        "comision": "AUXILIAR 20"
+      },
+      {
+        "nombre": "MERY DEL SOCORRO OSPINA SANCHEZ",
+        "comision": "AUXILIAR 21"
+      },
+      {
+        "nombre": "VALENTINA LOPERA GIRALDO",
+        "comision": "AUXILIAR 22"
+      },
+      {
+        "nombre": "JOSE GABRIEL MARTINEZ AGUDELO",
+        "comision": "AUXILIAR 23"
+      },
+      {
+        "nombre": "VICTOR HUGO ATEHORTUA GARCIA",
+        "comision": "AUXILIAR 24"
+      }
+    ]
+  },
+  "CALDAS": {
+    "total_personas": 6,
+    "municipales": 1,
+    "auxiliares": 5,
+    "total_comisiones": 6,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "IVAN DARIO VERGARA LOPEZ",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "JOHN JAIRO TORO VALENCIA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "LEIDY ZULAY VERGARA BLANDON",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "ANI YULIE TABORDA GOMEZ",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "MARLENY COLORADO ESTRADA",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "CLAUDIA PATRICIA ZAPATA YEPEZ",
+        "comision": "AUXILIAR 5"
+      }
+    ]
+  },
+  "CAREPA": {
+    "total_personas": 5,
+    "municipales": 1,
+    "auxiliares": 4,
+    "total_comisiones": 5,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "YULI PAOLA RENDON HENAO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "DINA RAQUEL TEJADA ESPINOZA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "PIEDAD LORENA ACHIQUE YACUECHIME",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "SANDRA JULIET OCHOA CANO",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "LUIS CARLOS FRANCO CORDOBA",
+        "comision": "AUXILIAR 4"
+      }
+    ]
+  },
+  "CARMEN DE VIBORAL": {
+    "total_personas": 6,
+    "municipales": 1,
+    "auxiliares": 5,
+    "total_comisiones": 6,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 3 REMANENTE",
+      "AUXILIAR 4 REMANENTE",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "SIRLEY YESSENIA JARAMILLO SEPULVEDA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "SIRLEY YESSENIA JARAMILLO SEPULVEDA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "DIANA PATRICIA FLOREZ RAMOS",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "WILLIAM ANDREY PIEDRAHITA DURANGO",
+        "comision": "AUXILIAR 3 REMANENTE"
+      },
+      {
+        "nombre": "ESTEFANIA MUNERA VELEZ",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "WILLIAM ANDREY PIEDRAHITA DURANGO",
+        "comision": "AUXILIAR 4 REMANENTE"
+      }
+    ]
+  },
+  "CAUCASIA": {
+    "total_personas": 6,
+    "municipales": 1,
+    "auxiliares": 5,
+    "total_comisiones": 6,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "MIGUEL EMIRO MORENO QUINTANA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "ADRIANA CECILIA RODRIGUEZ BAZA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "LEONARDO LUCAS GARCIA ORTEGA",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "ARGEMIRO DE JESUS MORA LONDONO",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "MIGUEL EMIRO MORENO QUINTANA",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "LUIS FERNANDO MENDOZA VILLA",
+        "comision": "AUXILIAR 5"
+      }
+    ]
+  },
+  "CISNEROS": {
+    "total_personas": 2,
+    "municipales": 2,
+    "auxiliares": 0,
+    "total_comisiones": 2,
+    "comisiones": [
+      "MUNICIPAL",
+      "MUNICIPAL REMANTE"
+    ],
+    "personas": [
+      {
+        "nombre": "NAYELLY VASQUEZ GALVIS",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "ERIKA TATIANA SEPULVEDA GALVIS",
+        "comision": "MUNICIPAL REMANTE"
+      }
+    ]
+  },
+  "COPACABANA": {
+    "total_personas": 6,
+    "municipales": 1,
+    "auxiliares": 5,
+    "total_comisiones": 6,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "DEISY YURANY SUAREZ ACEVEDO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "HORACIO LEON PEREZ CARDONA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "LILIANA GOMEZ GAVIRIA",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "LUZ STELLA GIRALDO ATEHORTUA",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "NESTOR JAIME SANCHEZ AVILA",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "LUISA FERNANDA JIMENEZ HERRERA",
+        "comision": "AUXILIAR 5"
+      }
+    ]
+  },
+  "CHIGORODO": {
+    "total_personas": 5,
+    "municipales": 1,
+    "auxiliares": 4,
+    "total_comisiones": 5,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "CAMILA ANDREA NEGRETE MONTES",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "IDALIDES PALACIOS PALACIOS",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "GLORIA CECILIA CORREA PUERTA",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "MARIA DOLORES ECHAVARRIA RIVERA",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "YANEIDIS MILETH PALACIOS LOPEZ",
+        "comision": "AUXILIAR 4"
+      }
+    ]
+  },
+  "ENVIGADO": {
+    "total_personas": 12,
+    "municipales": 1,
+    "auxiliares": 11,
+    "total_comisiones": 12,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 10",
+      "AUXILIAR 11",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "AUXILIAR 6",
+      "AUXILIAR 7",
+      "AUXILIAR 8",
+      "AUXILIAR 9",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "MYRIAM ESTHER RANGEL CRESPO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "SANDRA MARCELA VILLAMIZAR VELANDIA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "SANDRA MARCELA VILLAMIZAR VELANDIA",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "EVA ROCIO JOYA LEON",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "EVA ROCIO JOYA LEON",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "JULIETH SILVA GONZALEZ",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "JULIETH SILVA GONZALEZ",
+        "comision": "AUXILIAR 6"
+      },
+      {
+        "nombre": "DIANA MARIA GOMEZ RUA",
+        "comision": "AUXILIAR 7"
+      },
+      {
+        "nombre": "DIANA MARIA GOMEZ RUA",
+        "comision": "AUXILIAR 8"
+      },
+      {
+        "nombre": "MARTHA YANETH JARAMILLO SANCHEZ",
+        "comision": "AUXILIAR 9"
+      },
+      {
+        "nombre": "MARTHA YANETH JARAMILLO SANCHEZ",
+        "comision": "AUXILIAR 10"
+      },
+      {
+        "nombre": "MYRIAM ESTHER RANGEL CRESPO",
+        "comision": "AUXILIAR 11"
+      }
+    ]
+  },
+  "GIRARDOTA": {
+    "total_personas": 5,
+    "municipales": 1,
+    "auxiliares": 4,
+    "total_comisiones": 5,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "OLGA LUZ VIDALES ALCARAZ",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "OLGA LUZ VIDALES ALCARAZ",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "GLORIA INES GOEZ GIL",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "PEDRO IVAN VELEZ ANGEL",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "GLORIA INES GOEZ GIL",
+        "comision": "AUXILIAR 4"
+      }
+    ]
+  },
+  "GUARNE": {
+    "total_personas": 4,
+    "municipales": 2,
+    "auxiliares": 2,
+    "total_comisiones": 4,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "MUNICIPAL",
+      "MUNICIPAL REMANTE"
+    ],
+    "personas": [
+      {
+        "nombre": "OLGA LILIANA ROBLEDO GOMEZ",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "JOHN ALEXANDER MARIN OROZCO",
+        "comision": "MUNICIPAL REMANTE"
+      },
+      {
+        "nombre": "JOSE IGNACIO VELASQUEZ TORO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "JOSE IGNACIO VELASQUEZ TORO",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "ITAGUI": {
+    "total_personas": 20,
+    "municipales": 1,
+    "auxiliares": 19,
+    "total_comisiones": 20,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 10",
+      "AUXILIAR 11",
+      "AUXILIAR 12",
+      "AUXILIAR 13",
+      "AUXILIAR 14",
+      "AUXILIAR 15",
+      "AUXILIAR 16",
+      "AUXILIAR 17",
+      "AUXILIAR 18",
+      "AUXILIAR 19",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "AUXILIAR 6",
+      "AUXILIAR 7",
+      "AUXILIAR 8",
+      "AUXILIAR 9",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "MARIA EUGENIA FRANCO ARANGO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "DORA ELENA RESTREPO GONZALEZ",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "MARIA DENIS CARMONA",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "JHON JAIRO GARZON",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "NANCY DEL SOCORRO GALEANO VELEZ",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "MARIA AYDEE JIMENEZ VELEZ",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "JOVANA MILENA FLOREZ SOTO",
+        "comision": "AUXILIAR 6"
+      },
+      {
+        "nombre": "BERTHA INES MEDINA HERNANDEZ",
+        "comision": "AUXILIAR 7"
+      },
+      {
+        "nombre": "JOSE ARIEL VALENCIA",
+        "comision": "AUXILIAR 8"
+      },
+      {
+        "nombre": "SOFIA MACHADO GAVILAR",
+        "comision": "AUXILIAR 9"
+      },
+      {
+        "nombre": "ALIRIO ANTONIO DAVID CARVAJAL",
+        "comision": "AUXILIAR 10"
+      },
+      {
+        "nombre": "ADRIANA MARIA GUTIERREZ VARGAS",
+        "comision": "AUXILIAR 11"
+      },
+      {
+        "nombre": "JAIR ANDRES RESTREPO",
+        "comision": "AUXILIAR 12"
+      },
+      {
+        "nombre": "ADRIANA MARIA RESTREPO GONZALEZ",
+        "comision": "AUXILIAR 13"
+      },
+      {
+        "nombre": "MARIA CAMILA RENGIFO SOTO",
+        "comision": "AUXILIAR 14"
+      },
+      {
+        "nombre": "ALEISER URREGO CUARTAS",
+        "comision": "AUXILIAR 15"
+      },
+      {
+        "nombre": "JAIR ANDRES RESTREPO",
+        "comision": "AUXILIAR 16"
+      },
+      {
+        "nombre": "PAULA ANDREA URAN OCAMPO",
+        "comision": "AUXILIAR 17"
+      },
+      {
+        "nombre": "EVER DARIO RODRIGUEZ BUSTAMANTE",
+        "comision": "AUXILIAR 18"
+      },
+      {
+        "nombre": "NELSON DE JESUS HERRERA TOBON",
+        "comision": "AUXILIAR 19"
+      }
+    ]
+  },
+  "LA CEJA": {
+    "total_personas": 5,
+    "municipales": 1,
+    "auxiliares": 4,
+    "total_comisiones": 5,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "JANNIO ADOLFO CABEZA GUTIERREZ",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "JANNIO ADOLFO CABEZA GUTIERREZ",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "YAZMIN VALDES GIRALDO",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "LESLY MARCELA BRAVO CANO",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "SAMUEL LONDONO PEREZ",
+        "comision": "AUXILIAR 4"
+      }
+    ]
+  },
+  "LA ESTRELLA": {
+    "total_personas": 5,
+    "municipales": 1,
+    "auxiliares": 4,
+    "total_comisiones": 5,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "MARIBEL DUQUE RIOS",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "ROSALBA HERRERA ORTIZ",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "MARIA ROSAURA PEREZ LEON",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "MARIBEL DUQUE RIOS",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "ROSALBA HERRERA ORTIZ",
+        "comision": "AUXILIAR 4"
+      }
+    ]
+  },
+  "LA UNION": {
+    "total_personas": 3,
+    "municipales": 1,
+    "auxiliares": 2,
+    "total_comisiones": 3,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "SORA MILENA PAVAS ROJAS",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "MARTA ELSY ROJAS GIRALDO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "SORA MILENA PAVAS ROJAS",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "MARINILLA": {
+    "total_personas": 9,
+    "municipales": 1,
+    "auxiliares": 8,
+    "total_comisiones": 9,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 1 REMANENTE",
+      "AUXILIAR 2",
+      "AUXILIAR 2 REMANENTE",
+      "AUXILIAR 3",
+      "AUXILIAR 3 REMANENTE",
+      "AUXILIAR 4",
+      "AUXILIAR 4 REMANENTE",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "JUAN AGUSTIN ESTUPINAN ANGARITA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "BEATRIZ HELENA PATINO ALZATE",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "ARIANNY KAROLAYN SUAREZ ARBOLEDA",
+        "comision": "AUXILIAR 1 REMANENTE"
+      },
+      {
+        "nombre": "LUZ MARINA OROZCO MARIN",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "ARIANNY KAROLAYN SUAREZ ARBOLEDA",
+        "comision": "AUXILIAR 2 REMANENTE"
+      },
+      {
+        "nombre": "MYRIAM ROMERO BARON",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "MARY LUZ RESTREPO CARDENAS",
+        "comision": "AUXILIAR 3 REMANENTE"
+      },
+      {
+        "nombre": "SANDRA CECILIA CEBALLOS ESPANA",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "MARY LUZ RESTREPO CARDENAS",
+        "comision": "AUXILIAR 4 REMANENTE"
+      }
+    ]
+  },
+  "NECOCLI": {
+    "total_personas": 4,
+    "municipales": 1,
+    "auxiliares": 3,
+    "total_comisiones": 4,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "SAMUEL ANTONIO ESTRADA VELASQUEZ",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "SAMUEL ANTONIO ESTRADA VELASQUEZ",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "LEDYS MARIA SALGADO DIAZ",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "GERMAN DARIO CALLE RUIZ",
+        "comision": "AUXILIAR 3"
+      }
+    ]
+  },
+  "RIONEGRO": {
+    "total_personas": 9,
+    "municipales": 1,
+    "auxiliares": 8,
+    "total_comisiones": 9,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "AUXILIAR 6",
+      "AUXILIAR 7",
+      "AUXILIAR 8",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "WILMAN ALBEIRO MARULANDA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "NANCY BETANCUR RESTREPO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "MARIA FABIOLA BAHENA SANCHEZ",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "STEPHANIE ARBELAEZ ZULUAGA",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "STEPHANIE ARBELAEZ ZULUAGA",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "DORIS ELENA SEPULVEDA OQUENDO",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "ALVARO ANTONIO RAMIREZ FRANCO",
+        "comision": "AUXILIAR 6"
+      },
+      {
+        "nombre": "ALVARO ANTONIO RAMIREZ FRANCO",
+        "comision": "AUXILIAR 8"
+      },
+      {
+        "nombre": "WILMAN ALBEIRO MARULANDA",
+        "comision": "AUXILIAR 7"
+      }
+    ]
+  },
+  "SABANETA": {
+    "total_personas": 6,
+    "municipales": 1,
+    "auxiliares": 5,
+    "total_comisiones": 6,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 5",
+      "AUXILIAR 6",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "MARIBEL GIL USMA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "MARIA ELSA VERGARA RUA",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "BETTY NATALIA LOPEZ GUTIERREZ",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "LUIS ALBERTO PARRA OSSA",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "LIGIA MARGARITA GUARIN LOPEZ",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "SIMON ENRIQUE ANGARITA VILLAMIZAR",
+        "comision": "AUXILIAR 6"
+      }
+    ]
+  },
+  "SAN PEDRO DE LOS MILAGROS": {
+    "total_personas": 3,
+    "municipales": 1,
+    "auxiliares": 2,
+    "total_comisiones": 3,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "LUZ MIRELLA GIRALDO AVENDANO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "LUZ MIRELLA GIRALDO AVENDANO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "MARIA EUGENIA ROMAN OSPINA",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "SANTA BARBARA": {
+    "total_personas": 3,
+    "municipales": 1,
+    "auxiliares": 2,
+    "total_comisiones": 3,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "SANDRA JANNETH PIEDRAHITA DURANGO",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "SANDRA JANNETH PIEDRAHITA DURANGO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "EVELYN MERCEDES RODRIGUEZ ARIZA",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "SEGOVIA": {
+    "total_personas": 5,
+    "municipales": 2,
+    "auxiliares": 3,
+    "total_comisiones": 5,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 1 REMANENTE",
+      "AUXILIAR 2",
+      "MUNICIPAL",
+      "MUNICIPAL REMANTE"
+    ],
+    "personas": [
+      {
+        "nombre": "LUIS FERNANDO RUIZ TABORDA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "YULIMAR SORAYA HERRERA MONSALVE",
+        "comision": "MUNICIPAL REMANTE"
+      },
+      {
+        "nombre": "CRISTINA MARYORY VELEZ GIRALDO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "YULIMAR SORAYA HERRERA MONSALVE",
+        "comision": "AUXILIAR 1 REMANENTE"
+      },
+      {
+        "nombre": "ARIANNY CELESTE RAMIREZ CARMONA",
+        "comision": "AUXILIAR 2"
+      }
+    ]
+  },
+  "SOPETRAN": {
+    "total_personas": 1,
+    "municipales": 1,
+    "auxiliares": 0,
+    "total_comisiones": 1,
+    "comisiones": [
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "YEFREY URREGO LOPEZ",
+        "comision": "MUNICIPAL"
+      }
+    ]
+  },
+  "TURBO": {
+    "total_personas": 6,
+    "municipales": 1,
+    "auxiliares": 5,
+    "total_comisiones": 6,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 3",
+      "AUXILIAR 4",
+      "AUXILIAR 5",
+      "MUNICIPAL"
+    ],
+    "personas": [
+      {
+        "nombre": "ANDRES JAVIER SECA CORDOBA",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "LINA MARCELA CANTERO JULIO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "NELYS DEL CARMEN REYES ARROYO",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "MOISES MACHUCA BLANCO",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "DANEIDY MORENO BEYTAR",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "DERYS RESTREPO MENA",
+        "comision": "AUXILIAR 5"
+      }
+    ]
+  },
+  "MEDELLIN": {
+    "total_personas": 126,
+    "municipales": 2,
+    "auxiliares": 119,
+    "total_comisiones": 126,
+    "comisiones": [
+      "AUXILIAR 1",
+      "AUXILIAR 10",
+      "AUXILIAR 100",
+      "AUXILIAR 101",
+      "AUXILIAR 102",
+      "AUXILIAR 103",
+      "AUXILIAR 104",
+      "AUXILIAR 105",
+      "AUXILIAR 106",
+      "AUXILIAR 107",
+      "AUXILIAR 108",
+      "AUXILIAR 109",
+      "AUXILIAR 11",
+      "AUXILIAR 110",
+      "AUXILIAR 111",
+      "AUXILIAR 112",
+      "AUXILIAR 113",
+      "AUXILIAR 114",
+      "AUXILIAR 115",
+      "AUXILIAR 116",
+      "AUXILIAR 117",
+      "AUXILIAR 118",
+      "AUXILIAR 119",
+      "AUXILIAR 12",
+      "AUXILIAR 120",
+      "AUXILIAR 14",
+      "AUXILIAR 15",
+      "AUXILIAR 16",
+      "AUXILIAR 17",
+      "AUXILIAR 18",
+      "AUXILIAR 19",
+      "AUXILIAR 2",
+      "AUXILIAR 20",
+      "AUXILIAR 21",
+      "AUXILIAR 22",
+      "AUXILIAR 23",
+      "AUXILIAR 24",
+      "AUXILIAR 25",
+      "AUXILIAR 26",
+      "AUXILIAR 27",
+      "AUXILIAR 28",
+      "AUXILIAR 29",
+      "AUXILIAR 3",
+      "AUXILIAR 30",
+      "AUXILIAR 31",
+      "AUXILIAR 32",
+      "AUXILIAR 33",
+      "AUXILIAR 34",
+      "AUXILIAR 35",
+      "AUXILIAR 36",
+      "AUXILIAR 37",
+      "AUXILIAR 38",
+      "AUXILIAR 39",
+      "AUXILIAR 4",
+      "AUXILIAR 40",
+      "AUXILIAR 41",
+      "AUXILIAR 42",
+      "AUXILIAR 43",
+      "AUXILIAR 44",
+      "AUXILIAR 45",
+      "AUXILIAR 46",
+      "AUXILIAR 47",
+      "AUXILIAR 48",
+      "AUXILIAR 49",
+      "AUXILIAR 5",
+      "AUXILIAR 50",
+      "AUXILIAR 51",
+      "AUXILIAR 52",
+      "AUXILIAR 53",
+      "AUXILIAR 54",
+      "AUXILIAR 55",
+      "AUXILIAR 56",
+      "AUXILIAR 57",
+      "AUXILIAR 58",
+      "AUXILIAR 59",
+      "AUXILIAR 6",
+      "AUXILIAR 60",
+      "AUXILIAR 61",
+      "AUXILIAR 62",
+      "AUXILIAR 63",
+      "AUXILIAR 64",
+      "AUXILIAR 65",
+      "AUXILIAR 66",
+      "AUXILIAR 67",
+      "AUXILIAR 68",
+      "AUXILIAR 69",
+      "AUXILIAR 7",
+      "AUXILIAR 70",
+      "AUXILIAR 71",
+      "AUXILIAR 72",
+      "AUXILIAR 73",
+      "AUXILIAR 74",
+      "AUXILIAR 75",
+      "AUXILIAR 76",
+      "AUXILIAR 77",
+      "AUXILIAR 78",
+      "AUXILIAR 79",
+      "AUXILIAR 8",
+      "AUXILIAR 80",
+      "AUXILIAR 81",
+      "AUXILIAR 82",
+      "AUXILIAR 83",
+      "AUXILIAR 84",
+      "AUXILIAR 85",
+      "AUXILIAR 86",
+      "AUXILIAR 87",
+      "AUXILIAR 88",
+      "AUXILIAR 89",
+      "AUXILIAR 9",
+      "AUXILIAR 90",
+      "AUXILIAR 91",
+      "AUXILIAR 92",
+      "AUXILIAR 93",
+      "AUXILIAR 94",
+      "AUXILIAR 95",
+      "AUXILIAR 96",
+      "AUXILIAR 97",
+      "AUXILIAR 98",
+      "AUXILIAR 99",
+      "DEPARTAMENTAL 1",
+      "DEPARTAMENTAL 2",
+      "DEPARTAMENTAL 3",
+      "DEPARTAMENTAL 4",
+      "DEPARTAMENTAL 5",
+      "MUNICIPAL",
+      "MUNICIPAL REMANTE"
+    ],
+    "personas": [
+      {
+        "nombre": "ADOLFO LEON ECHEVERRI ESPINOSA",
+        "comision": "AUXILIAR 6"
+      },
+      {
+        "nombre": "ADOLFO LEON ECHEVERRI ESPINOSA",
+        "comision": "AUXILIAR 69"
+      },
+      {
+        "nombre": "AIDA ROSA PONTON RIVERA",
+        "comision": "AUXILIAR 43"
+      },
+      {
+        "nombre": "ANA MILENA MENA ROJAS",
+        "comision": "AUXILIAR 80"
+      },
+      {
+        "nombre": "ANDRES FELIPE ALVAREZ SUAREZ",
+        "comision": "AUXILIAR 114"
+      },
+      {
+        "nombre": "ANDRES FELIPE ALVAREZ SUAREZ",
+        "comision": "AUXILIAR 21"
+      },
+      {
+        "nombre": "ANGIE ANDREA ALMARALES GONZALEZ",
+        "comision": "AUXILIAR 111"
+      },
+      {
+        "nombre": "BEATRIZ ELENA GUTIERREZ RESTREPO",
+        "comision": "AUXILIAR 58"
+      },
+      {
+        "nombre": "BIBIANA MARIA HERNANDEZ SIERRA",
+        "comision": "AUXILIAR 71"
+      },
+      {
+        "nombre": "CLARA INES ARRIETA ARGUMEDO",
+        "comision": "AUXILIAR 106"
+      },
+      {
+        "nombre": "CLAUDIA CECILIA SANCHEZ MARIN",
+        "comision": "AUXILIAR 109"
+      },
+      {
+        "nombre": "CLAUDIA GILMA BETANCUR PABON",
+        "comision": "AUXILIAR 95"
+      },
+      {
+        "nombre": "CLAUDIA PATRICIA GONZALEZ MUNETON",
+        "comision": "AUXILIAR 77"
+      },
+      {
+        "nombre": "CRUZ MERCY MELO VARGAS",
+        "comision": "AUXILIAR 46"
+      },
+      {
+        "nombre": "DAVID ESTEBAN MARTINEZ MORENO",
+        "comision": "AUXILIAR 29"
+      },
+      {
+        "nombre": "DAVID ESTEBAN MARTINEZ MORENO",
+        "comision": "AUXILIAR 3"
+      },
+      {
+        "nombre": "DENNY JUDITH MENDEZ GALLEGO",
+        "comision": "AUXILIAR 11"
+      },
+      {
+        "nombre": "DEYANIRA URRUTIA RAPELINO",
+        "comision": "AUXILIAR 24"
+      },
+      {
+        "nombre": "DORINDA DE JESUS TAPASCO ANDUQUIA",
+        "comision": "AUXILIAR 59"
+      },
+      {
+        "nombre": "EBOLY EDITH ARRIAGA RAMIREZ",
+        "comision": "DEPARTAMENTAL 1"
+      },
+      {
+        "nombre": "ELIZABETH CRISTINA MESA PEREZ",
+        "comision": "AUXILIAR 96"
+      },
+      {
+        "nombre": "ERNESTO BERNAL ORTIZ",
+        "comision": "AUXILIAR 49"
+      },
+      {
+        "nombre": "ESPERANZA DOREY MEJIA VILLA",
+        "comision": "AUXILIAR 88"
+      },
+      {
+        "nombre": "FRANK GUILLERMO HURTADO LONDONO",
+        "comision": "AUXILIAR 1"
+      },
+      {
+        "nombre": "FRANK GUILLERMO HURTADO LONDONO",
+        "comision": "AUXILIAR 107"
+      },
+      {
+        "nombre": "FRESIA MABEL ATEHORTUA RESTREPO",
+        "comision": "AUXILIAR 39"
+      },
+      {
+        "nombre": "GABRIEL ANGEL MORALES LARGO",
+        "comision": "AUXILIAR 119"
+      },
+      {
+        "nombre": "GABRIEL ANGEL MORALES LARGO",
+        "comision": "AUXILIAR 4"
+      },
+      {
+        "nombre": "GEPSI JANET QUINTERO CANO",
+        "comision": "AUXILIAR 118"
+      },
+      {
+        "nombre": "GERLI PADILLA CORDERO",
+        "comision": "AUXILIAR 31"
+      },
+      {
+        "nombre": "GERLI PADILLA CORDERO",
+        "comision": "AUXILIAR 9"
+      },
+      {
+        "nombre": "GERMAN GONZALEZ CONTRERAS",
+        "comision": "AUXILIAR 62"
+      },
+      {
+        "nombre": "GERMAN GONZALEZ CONTRERAS",
+        "comision": "AUXILIAR 7"
+      },
+      {
+        "nombre": "GICELA ANDREA SOTO ALZATE",
+        "comision": "AUXILIAR 34"
+      },
+      {
+        "nombre": "GLADYS MONICA BOJACA ORREGO",
+        "comision": "AUXILIAR 19"
+      },
+      {
+        "nombre": "GLORIA ESPERANZA GOMEZ ARIAS",
+        "comision": "AUXILIAR 72"
+      },
+      {
+        "nombre": "GLORIA PATRICIA LOPEZ VELASQUEZ",
+        "comision": "AUXILIAR 86"
+      },
+      {
+        "nombre": "HENRY ANDRES BUITRAGO RAMIREZ",
+        "comision": "AUXILIAR 12"
+      },
+      {
+        "nombre": "HENRY ANDRES BUITRAGO RAMIREZ",
+        "comision": "AUXILIAR 87"
+      },
+      {
+        "nombre": "HILDA LUZ VASQUEZ PIEDRAHITA",
+        "comision": "AUXILIAR 25"
+      },
+      {
+        "nombre": "HILDA MARIA CANO HEREDIA",
+        "comision": "AUXILIAR 73"
+      },
+      {
+        "nombre": "INELDA GOMEZ CARRASCAL",
+        "comision": "AUXILIAR 17"
+      },
+      {
+        "nombre": "JHON JAIRO MONSALVE",
+        "comision": "AUXILIAR 5"
+      },
+      {
+        "nombre": "JHON JAIRO MONSALVE",
+        "comision": "AUXILIAR 64"
+      },
+      {
+        "nombre": "JOHN DARIO VIERA MARRUGO",
+        "comision": "AUXILIAR 10"
+      },
+      {
+        "nombre": "JOHN DARIO VIERA MARRUGO",
+        "comision": "AUXILIAR 105"
+      },
+      {
+        "nombre": "JOHN JAIRO MUNOZ ALVAREZ",
+        "comision": "AUXILIAR 32"
+      },
+      {
+        "nombre": "JOHN JAIRO MUNOZ ALVAREZ",
+        "comision": "DEPARTAMENTAL 3"
+      },
+      {
+        "nombre": "JOSE ALEJANDRO RESTREPO GIRALDO",
+        "comision": "AUXILIAR 103"
+      },
+      {
+        "nombre": "JOSE ALEJANDRO RESTREPO GIRALDO",
+        "comision": "AUXILIAR 112"
+      },
+      {
+        "nombre": "JOSE AVELINO PALACIOS PALACIOS",
+        "comision": "AUXILIAR 26"
+      },
+      {
+        "nombre": "JUAN ALEJANDRO GARCIA FLOREZ",
+        "comision": "AUXILIAR 38"
+      },
+      {
+        "nombre": "JUAN FELIPE BETANCUR CORRALES",
+        "comision": "DEPARTAMENTAL 4"
+      },
+      {
+        "nombre": "JUAN FELIPE BETANCUR CORRALES",
+        "comision": "MUNICIPAL"
+      },
+      {
+        "nombre": "JUDITH DALILA ALZATE RESTREPO",
+        "comision": "AUXILIAR 20"
+      },
+      {
+        "nombre": "JUDITH FRANCEDY GALLEGO",
+        "comision": "AUXILIAR 15"
+      },
+      {
+        "nombre": "KELLY JOHANA LOPEZ GOMEZ",
+        "comision": "AUXILIAR 67"
+      },
+      {
+        "nombre": "KELLY JOHANA LOPEZ GOMEZ",
+        "comision": "DEPARTAMENTAL 2"
+      },
+      {
+        "nombre": "LAURA ALEJANDRA ANDRADE GARCIA",
+        "comision": "AUXILIAR 37"
+      },
+      {
+        "nombre": "LEONARDO JOSE RODRIGUEZ ANAYA",
+        "comision": "AUXILIAR 78"
+      },
+      {
+        "nombre": "LEYDIS HURTADO PEREZ",
+        "comision": "AUXILIAR 93"
+      },
+      {
+        "nombre": "LIBIA YASMIN HOYOS GALLEGO",
+        "comision": "AUXILIAR 18"
+      },
+      {
+        "nombre": "LILIANA DEL PILAR MONSALVE JIMENEZ",
+        "comision": "AUXILIAR 30"
+      },
+      {
+        "nombre": "LILIANA PATRICIA DURANGO ESCOBAR",
+        "comision": "AUXILIAR 101"
+      },
+      {
+        "nombre": "LILIANA PATRICIA DURANGO ESCOBAR",
+        "comision": "DEPARTAMENTAL 5"
+      },
+      {
+        "nombre": "LILIANA PATRICIA SANCHEZ MENA",
+        "comision": "AUXILIAR 102"
+      },
+      {
+        "nombre": "LINA MARCELA GIRALDO RAMIREZ",
+        "comision": "AUXILIAR 63"
+      },
+      {
+        "nombre": "LINA PENA ARANGO",
+        "comision": "AUXILIAR 90"
+      },
+      {
+        "nombre": "LISETH RODRIGUEZ ISAZA",
+        "comision": "MUNICIPAL REMANTE"
+      },
+      {
+        "nombre": "LUIS MIGUEL MARQUEZ DIAZ",
+        "comision": "AUXILIAR 84"
+      },
+      {
+        "nombre": "LUISA FERNANDA RESTREPO QUINTERO",
+        "comision": "AUXILIAR 35"
+      },
+      {
+        "nombre": "LUZ AIDE RODRIGUEZ BEDOYA",
+        "comision": "AUXILIAR 94"
+      },
+      {
+        "nombre": "LUZ DARY DE JESUS VERGARA MUNOZ",
+        "comision": "AUXILIAR 82"
+      },
+      {
+        "nombre": "LUZ ENID HERNANDEZ GUERRA",
+        "comision": "AUXILIAR 89"
+      },
+      {
+        "nombre": "LUZ ESTELLA GALLO MONSALVE",
+        "comision": "AUXILIAR 23"
+      },
+      {
+        "nombre": "LUZ MARINA COLORADO",
+        "comision": "AUXILIAR 44"
+      },
+      {
+        "nombre": "LUZ MARINA PEREA ORTIZ",
+        "comision": "AUXILIAR 54"
+      },
+      {
+        "nombre": "LYDA MARITZA DAZA CIFUENTES",
+        "comision": "AUXILIAR 104"
+      },
+      {
+        "nombre": "MAGNOLIA DEL SOCORRO ALCARAZ ALCARAZ",
+        "comision": "AUXILIAR 66"
+      },
+      {
+        "nombre": "MARCO AURELIO PIEDRAHITA DURANGO",
+        "comision": "AUXILIAR 117"
+      },
+      {
+        "nombre": "MARCO AURELIO PIEDRAHITA DURANGO",
+        "comision": "AUXILIAR 2"
+      },
+      {
+        "nombre": "MARIA ANGELICA GARCIA GIRALDO",
+        "comision": "AUXILIAR 120"
+      },
+      {
+        "nombre": "MARIA EDIT CABRERA ORTIZ",
+        "comision": "AUXILIAR 56"
+      },
+      {
+        "nombre": "MARIA ELENA ESPINOSA ARBOLEDA",
+        "comision": "AUXILIAR 92"
+      },
+      {
+        "nombre": "MARIA EUGENIA ZAPATA GIRALDO",
+        "comision": "AUXILIAR 79"
+      },
+      {
+        "nombre": "MARIA LUCELY QUINTERO TORO",
+        "comision": "AUXILIAR 76"
+      },
+      {
+        "nombre": "MARIA MERCEDES DAVID USUGA",
+        "comision": "AUXILIAR 27"
+      },
+      {
+        "nombre": "MARIA MISGLEIS MURILLO REYES",
+        "comision": "AUXILIAR 48"
+      },
+      {
+        "nombre": "MARIA RUBIELA RUIZ FLOREZ",
+        "comision": "AUXILIAR 53"
+      },
+      {
+        "nombre": "MARIA VICTORIA AGUIRRE JARAMILLO",
+        "comision": "AUXILIAR 83"
+      },
+      {
+        "nombre": "MARLENY DEL SOCORRO MUNOZ QUINTERO",
+        "comision": "AUXILIAR 74"
+      },
+      {
+        "nombre": "MARTHA ALICIA MORA GIL",
+        "comision": "AUXILIAR 16"
+      },
+      {
+        "nombre": "MARTHA LUCIA MORA SANCHEZ",
+        "comision": "AUXILIAR 22"
+      },
+      {
+        "nombre": "MARTHA LUCIA PELAEZ CARDONA",
+        "comision": "AUXILIAR 45"
+      },
+      {
+        "nombre": "MARTHA OFELIA RAMIREZ ZULUAGA",
+        "comision": "AUXILIAR 14"
+      },
+      {
+        "nombre": "MARTHA PATRICIA RENDON DIAZ",
+        "comision": "AUXILIAR 57"
+      },
+      {
+        "nombre": "MELVA MAGDALENA BEDOYA HENAO",
+        "comision": "AUXILIAR 36"
+      },
+      {
+        "nombre": "MELVA TRESPALACIO RUIZ",
+        "comision": "AUXILIAR 51"
+      },
+      {
+        "nombre": "MIGUEL ANGEL GOMEZ GIRALDO",
+        "comision": "AUXILIAR 116"
+      },
+      {
+        "nombre": "NATHALIA ALVAREZ GONZALEZ",
+        "comision": "AUXILIAR 75"
+      },
+      {
+        "nombre": "NILSA LOPEZ MARTINEZ",
+        "comision": "AUXILIAR 98"
+      },
+      {
+        "nombre": "NORA STELLA ZAPATA AGUILAR",
+        "comision": "AUXILIAR 115"
+      },
+      {
+        "nombre": "NORMA IRELIA BOLIVAR PENA",
+        "comision": "AUXILIAR 42"
+      },
+      {
+        "nombre": "NURY HAIDE LEZCANO CARDENAS",
+        "comision": "AUXILIAR 61"
+      },
+      {
+        "nombre": "ODALIS DEL SOCORRO SAENZ GIL",
+        "comision": "AUXILIAR 55"
+      },
+      {
+        "nombre": "OSCAR DAVID LOPERA ARENAS",
+        "comision": "AUXILIAR 28"
+      },
+      {
+        "nombre": "OSCAR DAVID LOPERA ARENAS",
+        "comision": "AUXILIAR 8"
+      },
+      {
+        "nombre": "OSLEIDA PALACIOS CUESTA",
+        "comision": "AUXILIAR 97"
+      },
+      {
+        "nombre": "PATRICIA ELENA RESTREPO ALZATE",
+        "comision": "AUXILIAR 100"
+      },
+      {
+        "nombre": "PAULA ANDREA MONTOYA RODRIGUEZ",
+        "comision": "AUXILIAR 60"
+      },
+      {
+        "nombre": "PAULA ANDREA RESTREPO ALZATE",
+        "comision": "AUXILIAR 33"
+      },
+      {
+        "nombre": "MARIA EUGENIA BETANCUR RESTREPO",
+        "comision": "AUXILIAR 113"
+      },
+      {
+        "nombre": "SERGIO ALEXANDER AREVALO DIAZ",
+        "comision": "AUXILIAR 99"
+      },
+      {
+        "nombre": "SONIA ESPERANZA FLOREZ BETANCUR",
+        "comision": "AUXILIAR 110"
+      },
+      {
+        "nombre": "SONIA ESTHER ESCOBAR DIAZ",
+        "comision": "AUXILIAR 52"
+      },
+      {
+        "nombre": "VICTOR ALFONSO MARMOLEJO CORDOBA",
+        "comision": "AUXILIAR 47"
+      },
+      {
+        "nombre": "VICTORIA ELENA CORDOBA RUIZ",
+        "comision": "AUXILIAR 41"
+      },
+      {
+        "nombre": "VIVIANA ARIAS LOAIZA",
+        "comision": "AUXILIAR 70"
+      },
+      {
+        "nombre": "WINNY SANDRITH DOMINGUEZ GARRIDO",
+        "comision": "AUXILIAR 40"
+      },
+      {
+        "nombre": "YANETH BLANCO TRIVINO",
+        "comision": "AUXILIAR 81"
+      },
+      {
+        "nombre": "YINA MARIA TAMAYO DORIA",
+        "comision": "AUXILIAR 85"
+      },
+      {
+        "nombre": "YOHSMAR EDITH CORTES RUIZ",
+        "comision": "AUXILIAR 91"
+      },
+      {
+        "nombre": "YOLANDA OBREGON MENA",
+        "comision": "AUXILIAR 68"
+      },
+      {
+        "nombre": "YUDY ANGELICA RUIZ RIOS",
+        "comision": "AUXILIAR 65"
+      },
+      {
+        "nombre": "ZENIA MARIA MENA ABADIA",
+        "comision": "AUXILIAR 108"
+      },
+      {
+        "nombre": "ZULMARINA TORRES CUESTA",
+        "comision": "AUXILIAR 50"
+      }
+    ]
+  }
+}

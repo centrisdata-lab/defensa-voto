@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Defensa del Voto - Testigos Escrutadores</title>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+  <style>
+    html, body { width:100%; height:100%; margin:0; padding:0; }
+    #map_escrutadores { position:absolute; top:0; bottom:0; left:0; right:0; }
+    .leaflet-tooltip { font-size:12px; font-family:Arial; }
+  </style>
+</head>
+<body>
+
+<div id="info-panel" style="position:fixed;top:10px;left:50px;width:275px;max-height:calc(100vh - 220px);overflow-y:auto;background:white;border:2px solid #991b1b;z-index:9999;font-size:12px;padding:10px;border-radius:6px;box-shadow:2px 2px 6px rgba(0,0,0,0.3);">
+  <h3 style="margin:0 0 6px 0;font-size:13px;color:#7f1d1d;">&#9876; Defensa del Voto &ndash; Escrutadores Antioquia</h3>
+  <div style="position:relative;margin-bottom:8px">
+    <input id="filtro-muni" type="text" placeholder="&#128269; Buscar municipio..." autocomplete="off"
+      oninput="filtrarMunicipios(this.value)"
+      style="width:100%;box-sizing:border-box;padding:5px 8px;border:1px solid #fca5a5;border-radius:6px;font-size:.78em;color:#1e293b;outline:none">
+    <div id="filtro-lista" style="display:none;position:absolute;top:100%;left:0;right:0;background:white;border:1px solid #fca5a5;border-radius:0 0 6px 6px;max-height:180px;overflow-y:auto;z-index:10001;box-shadow:2px 4px 8px rgba(0,0,0,0.15)"></div>
+  </div>
+  <div style="font-size:.7em;font-weight:700;color:#991b1b;margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px">Resumen Antioquia</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:8px">
+    <div style="background:#fef2f2;border-radius:4px;padding:5px;text-align:center;">
+      <div style="font-size:1.25em;font-weight:700;color:#991b1b">{{TOTAL_PERSONAS}}</div>
+      <div style="font-size:.65em;color:#666">Total Personas</div>
+    </div>
+    <div style="background:#fff7ed;border-radius:4px;padding:5px;text-align:center;">
+      <div style="font-size:1.25em;font-weight:700;color:#9a3412">{{N_MUNICIPIOS}}</div>
+      <div style="font-size:.65em;color:#666">Municipios</div>
+    </div>
+    <div style="background:#fef9c3;border-radius:4px;padding:5px;text-align:center;">
+      <div style="font-size:1.25em;font-weight:700;color:#713f12">{{TOTAL_MUNICIPALES}}</div>
+      <div style="font-size:.65em;color:#666">Com. Municipales</div>
+    </div>
+    <div style="background:#f0fdf4;border-radius:4px;padding:5px;text-align:center;">
+      <div style="font-size:1.25em;font-weight:700;color:#166534">{{TOTAL_AUXILIARES}}</div>
+      <div style="font-size:.65em;color:#666">Com. Auxiliares</div>
+    </div>
+  </div>
+  <div style="font-size:.7em;font-weight:700;color:#7f1d1d;margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px;display:flex;justify-content:space-between;align-items:center">
+    <span>Municipios</span>
+    <button onclick="toggleTabla()" id="btn-toggle-tabla" style="border:1px solid #fca5a5;background:#fef2f2;cursor:pointer;font-size:.65em;color:#7f1d1d;padding:1px 6px;border-radius:8px">&#9660;</button>
+  </div>
+  <div id="tabla-container">
+    <div style="display:grid;grid-template-columns:minmax(0,1fr) 40px 36px 36px;gap:3px;font-size:.6em;font-weight:700;color:#888;border-bottom:2px solid #e2e8f0;padding-bottom:2px;margin-bottom:2px">
+      <span>Municipio</span>
+      <span style="text-align:right;color:#991b1b">Com.</span>
+      <span style="text-align:right;color:#713f12">Mun.</span>
+      <span style="text-align:right;color:#166534">Aux.</span>
+    </div>
+    <div id="tabla-body"></div>
+    <div style="display:grid;grid-template-columns:minmax(0,1fr) 40px 36px 36px;gap:3px;font-size:.62em;font-weight:700;color:#333;border-top:2px solid #e2e8f0;padding-top:3px;margin-top:2px">
+      <span>TOTAL</span>
+      <span style="text-align:right;color:#991b1b">{{TOTAL_PERSONAS_2}}</span>
+      <span style="text-align:right;color:#713f12">{{TOTAL_MUNICIPALES_2}}</span>
+      <span style="text-align:right;color:#166534">{{TOTAL_AUXILIARES_2}}</span>
+    </div>
+  </div>
+</div>
+
+<div id="detalle-panel" style="display:none;position:fixed;top:10px;right:10px;width:320px;max-height:calc(100vh - 30px);overflow-y:auto;background:white;border:2px solid #991b1b;z-index:9999;font-size:12px;padding:12px;border-radius:6px;box-shadow:3px 3px 8px rgba(0,0,0,0.3);">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+    <h3 id="det-titulo" style="margin:0;font-size:14px;color:#7f1d1d;"></h3>
+    <button onclick="cerrarDetalle()" style="border:none;background:#fee2e2;color:#dc2626;cursor:pointer;font-size:13px;font-weight:700;border-radius:4px;padding:2px 8px">&times;</button>
+  </div>
+  <div id="det-resumen" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:10px;"></div>
+  <div id="det-personas"></div>
+</div>
+
+<div style="position:fixed;bottom:30px;left:50px;background:white;border:1px solid #ccc;z-index:9999;font-size:11px;padding:8px 10px;border-radius:6px;box-shadow:1px 1px 4px rgba(0,0,0,0.2)">
+  <div style="font-weight:700;margin-bottom:4px;color:#7f1d1d;font-size:.75em">Total Comisiones por Municipio</div>
+  <div><span style="background:#f0f0f0;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>Sin datos</div>
+  <div><span style="background:#d73027;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>1 <i style="font-size:.7em;color:#888">(muy bajo)</i></div>
+  <div><span style="background:#f46d43;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>2 - 3 <i style="font-size:.7em;color:#888">(bajo)</i></div>
+  <div><span style="background:#fdae61;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>4 - 5 <i style="font-size:.7em;color:#888">(medio-bajo)</i></div>
+  <div><span style="background:#fee08b;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>6 - 8 <i style="font-size:.7em;color:#888">(medio)</i></div>
+  <div><span style="background:#a6d96a;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>9 - 12 <i style="font-size:.7em;color:#888">(alto)</i></div>
+  <div><span style="background:#4dac26;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>13 - 25 <i style="font-size:.7em;color:#888">(muy alto)</i></div>
+  <div><span style="background:#1a7416;display:inline-block;width:9px;height:9px;border:1px solid #bbb;vertical-align:middle;margin-right:3px"></span>&gt; 25 <i style="font-size:.7em;color:#888">(m&aacute;ximo)</i></div>
+</div>
+
+<div id="map_escrutadores"></div>
+
+<script>
+var escrutadores_data = ESCRUTADORES_DATA_PLACEHOLDER;
+var ranking = [RANKING_PLACEHOLDER];
+
+var map = L.map('map_escrutadores', {center: [6.8, -75.5], zoom: 8, zoomControl: true});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors', maxZoom: 18
+}).addTo(map);
+
+function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function toTitleCase(str) {
+    return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+}
+function getColor(n) {
+    if (n <= 1) return '#d73027';
+    if (n <= 3) return '#f46d43';
+    if (n <= 5) return '#fdae61';
+    if (n <= 8) return '#fee08b';
+    if (n <= 12) return '#a6d96a';
+    if (n <= 25) return '#4dac26';
+    return '#1a7416';
+}
+
+function buildTabla(rows) {
+    var html = '';
+    rows.forEach(function(r) {
+        var label = toTitleCase(r[0]);
+        if (label.length > 18) label = label.substring(0,17) + '...';
+        html += '<div style="display:grid;grid-template-columns:minmax(0,1fr) 40px 36px 36px;gap:3px;padding:2px 0;border-bottom:1px solid #f1f5f9;cursor:pointer;font-size:.62em" onclick="clickMunicipioTabla(' + r[4] + ')" onmouseover="this.style.background=\'#fef2f2\'" onmouseout="this.style.background=\'\'">' +
+            '<span style="color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="' + escHtml(r[0]) + '">' + escHtml(label) + '</span>' +
+            '<span style="text-align:right;font-weight:700;color:#991b1b">' + r[1] + '</span>' +
+            '<span style="text-align:right;font-weight:700;color:#713f12">' + r[2] + '</span>' +
+            '<span style="text-align:right;font-weight:700;color:#166534">' + r[3] + '</span>' +
+            '</div>';
+    });
+    document.getElementById('tabla-body').innerHTML = html;
+}
+buildTabla(ranking);
+
+function toggleTabla() {
+    var c = document.getElementById('tabla-container');
+    var btn = document.getElementById('btn-toggle-tabla');
+    if (c.style.display === 'none') { c.style.display = ''; btn.innerHTML = '&#9660;'; }
+    else { c.style.display = 'none'; btn.innerHTML = '&#9654;'; }
+}
+
+function filtrarMunicipios(val) {
+    var lista = document.getElementById('filtro-lista');
+    if (!val || val.length < 1) { lista.style.display = 'none'; return; }
+    val = val.toUpperCase();
+    var matches = ranking.filter(r => r[0].indexOf(val) >= 0);
+    if (matches.length === 0) { lista.style.display = 'none'; return; }
+    lista.innerHTML = matches.slice(0,10).map(r =>
+        '<div style="padding:5px 8px;cursor:pointer;font-size:.75em;border-bottom:1px solid #f1f5f9" ' +
+        'onclick="clickMunicipioTabla(' + r[4] + ');document.getElementById(\'filtro-muni\').value=\'\';document.getElementById(\'filtro-lista\').style.display=\'none\'" ' +
+        'onmouseover="this.style.background=\'#fef2f2\'" onmouseout="this.style.background=\'white\'">' +
+        toTitleCase(r[0]) + '</div>'
+    ).join('');
+    lista.style.display = 'block';
+}
+document.addEventListener('click', function(e) {
+    if (!e.target.closest || !e.target.closest('#info-panel')) document.getElementById('filtro-lista').style.display = 'none';
+});
+
+var geojsonLayer;
+var selectedLayer = null;
+
+function clickMunicipioTabla(gid) {
+    if (!geojsonLayer) return;
+    geojsonLayer.eachLayer(function(layer) {
+        if (layer.feature && layer.feature.id == gid) {
+            map.fitBounds(layer.getBounds(), {padding: [30,30]});
+            abrirDetalle(layer.feature);
+        }
+    });
+}
+
+function cerrarDetalle() {
+    document.getElementById('detalle-panel').style.display = 'none';
+    if (selectedLayer) { geojsonLayer.resetStyle(selectedLayer); selectedLayer = null; }
+}
+
+function abrirDetalle(feature) {
+    var sid = String(feature.id);
+    var d = escrutadores_data[sid];
+    var mun = d ? toTitleCase(d.display_name) : toTitleCase(feature.properties.MPIO_CNMBR || '');
+    document.getElementById('det-titulo').innerHTML = '&#9876; ' + escHtml(mun);
+
+    if (d) {
+        document.getElementById('det-resumen').innerHTML =
+            '<div style="background:#fef2f2;border-radius:4px;padding:5px;text-align:center;">' +
+            '<div style="font-size:1.2em;font-weight:700;color:#991b1b">' + d.total_comisiones + '</div>' +
+            '<div style="font-size:.65em;color:#666">Total Comisiones</div></div>' +
+            '<div style="background:#fef9c3;border-radius:4px;padding:5px;text-align:center;">' +
+            '<div style="font-size:1.2em;font-weight:700;color:#713f12">' + d.municipales + '</div>' +
+            '<div style="font-size:.65em;color:#666">Municipales</div></div>' +
+            '<div style="background:#f0fdf4;border-radius:4px;padding:5px;text-align:center;">' +
+            '<div style="font-size:1.2em;font-weight:700;color:#166534">' + d.auxiliares + '</div>' +
+            '<div style="font-size:.65em;color:#666">Auxiliares</div></div>';
+
+        var byComision = {};
+        d.personas.forEach(function(p) {
+            if (!byComision[p.comision]) byComision[p.comision] = [];
+            byComision[p.comision].push(p.nombre);
+        });
+        var html = '<div style="font-size:.72em;font-weight:700;color:#7f1d1d;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px">Comisiones y Responsables</div>';
+        Object.keys(byComision).sort().forEach(function(com) {
+            html += '<div style="background:#fef2f2;border-left:3px solid #991b1b;padding:4px 7px;border-radius:0 4px 4px 0;margin-bottom:4px">' +
+                '<div style="font-size:.72em;font-weight:700;color:#7f1d1d;margin-bottom:2px">' + escHtml(com) + '</div>';
+            byComision[com].forEach(function(nombre) {
+                html += '<div style="font-size:.68em;color:#374151;padding:1px 0">' + escHtml(toTitleCase(nombre)) + '</div>';
+            });
+            html += '</div>';
+        });
+        document.getElementById('det-personas').innerHTML = html;
+    } else {
+        document.getElementById('det-resumen').innerHTML = '<div style="font-size:.75em;color:#aaa;font-style:italic;grid-column:1/-1">Sin datos de escrutadores</div>';
+        document.getElementById('det-personas').innerHTML = '';
+    }
+    document.getElementById('detalle-panel').style.display = 'block';
+}
+
+// ---- MASCARA: cubre todo el mundo excepto Antioquia ----
+(function() {
+    // Borde exterior del mundo
+    var worldRing = [[-180,-90],[-180,90],[180,90],[180,-90],[-180,-90]];
+    // Construir el contorno unificado de Antioquia uniendo todos los anillos exteriores de cada municipio
+    var geojsonData2 = GEOJSON_PLACEHOLDER2;
+    var holeRings = [];
+    geojsonData2.features.forEach(function(feat) {
+        var geom = feat.geometry;
+        var polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+        polys.forEach(function(poly) {
+            // Solo el anillo exterior (index 0) de cada polígono
+            holeRings.push(poly[0]);
+        });
+    });
+    // Crear un MultiPolygon: cada municipio es un "agujero" en el rectángulo mundial
+    var coords = [[worldRing]].concat(holeRings.map(function(ring) { return [ring]; }));
+    // Usar un solo Polygon con muchos huecos
+    var maskGeojson = {
+        type: 'Feature',
+        geometry: { type: 'Polygon', coordinates: [worldRing].concat(holeRings) },
+        properties: {}
+    };
+    L.geoJson(maskGeojson, {
+        style: { color: 'none', fillColor: '#c8c8c8', fillOpacity: 0.72, weight: 0, interactive: false }
+    }).addTo(map);
+})();
+// ---- FIN MASCARA ----
+
+var geojsonData = GEOJSON_PLACEHOLDER;
+geojsonLayer = L.geoJson(geojsonData, {
+    style: function(feature) {
+        var sid = String(feature.id);
+        var d = escrutadores_data[sid];
+        if (!d) return {color: '#999', fillColor: '#f0f0f0', fillOpacity: 0.2, weight: 1};
+        return {color: '#000000', fillColor: getColor(d.total_comisiones), fillOpacity: 0.75, weight: 2};
+    },
+    onEachFeature: function(feature, layer) {
+        var sid = String(feature.id);
+        var d = escrutadores_data[sid];
+        var mun = d ? toTitleCase(d.display_name) : toTitleCase(feature.properties.MPIO_CNMBR || '');
+        var tooltipHtml = '<b>' + escHtml(mun) + '</b>';
+        if (d) {
+            tooltipHtml += '<br>Comisiones: <b>' + d.total_comisiones + '</b>' +
+                '<br>Municipales: <b>' + d.municipales + '</b>' +
+                '<br>Auxiliares: <b>' + d.auxiliares + '</b>';
+        } else {
+            tooltipHtml += '<br><i style="color:#999">Sin datos</i>';
+        }
+        layer.bindTooltip(tooltipHtml, {sticky: true});
+        layer.on({
+            click: function(e) {
+                if (selectedLayer) geojsonLayer.resetStyle(selectedLayer);
+                selectedLayer = layer;
+                layer.setStyle({color: '#1e3a8a', weight: 3, fillOpacity: 0.9});
+                layer.bringToFront();
+                abrirDetalle(feature);
+                map.fitBounds(layer.getBounds(), {padding: [30,30]});
+            },
+            mouseover: function(e) {
+                if (layer !== selectedLayer) { layer.setStyle({weight: 3, color: '#333', fillOpacity: 0.9}); layer.bringToFront(); }
+            },
+            mouseout: function(e) {
+                if (layer !== selectedLayer) geojsonLayer.resetStyle(layer);
+            }
+        });
+    }
+}).addTo(map);
+map.fitBounds(geojsonLayer.getBounds());
+</script>
+</body>
+</html>
