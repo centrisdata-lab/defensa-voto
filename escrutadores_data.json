@@ -4,6 +4,7 @@
     "municipales": 1,
     "auxiliares": 2,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -30,6 +31,7 @@
     "municipales": 1,
     "auxiliares": 2,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -56,6 +58,7 @@
     "municipales": 1,
     "auxiliares": 8,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 9,
     "comisiones": [
       "AUXILIAR 1",
@@ -112,6 +115,7 @@
     "municipales": 1,
     "auxiliares": 3,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 4,
     "comisiones": [
       "AUXILIAR 1",
@@ -143,6 +147,7 @@
     "municipales": 1,
     "auxiliares": 24,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 25,
     "comisiones": [
       "AUXILIAR 1",
@@ -279,6 +284,7 @@
     "municipales": 1,
     "auxiliares": 5,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -320,6 +326,7 @@
     "municipales": 1,
     "auxiliares": 4,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -356,6 +363,7 @@
     "municipales": 1,
     "auxiliares": 5,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -397,6 +405,7 @@
     "municipales": 1,
     "auxiliares": 5,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -438,6 +447,7 @@
     "municipales": 2,
     "auxiliares": 0,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 2,
     "comisiones": [
       "MUNICIPAL",
@@ -459,6 +469,7 @@
     "municipales": 1,
     "auxiliares": 5,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -500,6 +511,7 @@
     "municipales": 1,
     "auxiliares": 4,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -536,6 +548,7 @@
     "municipales": 1,
     "auxiliares": 11,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 12,
     "comisiones": [
       "AUXILIAR 1",
@@ -607,6 +620,7 @@
     "municipales": 1,
     "auxiliares": 4,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -643,6 +657,7 @@
     "municipales": 2,
     "auxiliares": 2,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 4,
     "comisiones": [
       "AUXILIAR 1",
@@ -674,6 +689,7 @@
     "municipales": 1,
     "auxiliares": 19,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 20,
     "comisiones": [
       "AUXILIAR 1",
@@ -785,6 +801,7 @@
     "municipales": 1,
     "auxiliares": 4,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -821,6 +838,7 @@
     "municipales": 1,
     "auxiliares": 4,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -857,6 +875,7 @@
     "municipales": 1,
     "auxiliares": 2,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -883,6 +902,7 @@
     "municipales": 1,
     "auxiliares": 8,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 9,
     "comisiones": [
       "AUXILIAR 1",
@@ -939,6 +959,7 @@
     "municipales": 1,
     "auxiliares": 3,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 4,
     "comisiones": [
       "AUXILIAR 1",
@@ -970,6 +991,7 @@
     "municipales": 1,
     "auxiliares": 8,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 9,
     "comisiones": [
       "AUXILIAR 1",
@@ -1026,6 +1048,7 @@
     "municipales": 1,
     "auxiliares": 5,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -1067,6 +1090,7 @@
     "municipales": 1,
     "auxiliares": 2,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -1093,6 +1117,7 @@
     "municipales": 1,
     "auxiliares": 2,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 3,
     "comisiones": [
       "AUXILIAR 1",
@@ -1119,6 +1144,7 @@
     "municipales": 2,
     "auxiliares": 3,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 5,
     "comisiones": [
       "AUXILIAR 1",
@@ -1155,6 +1181,7 @@
     "municipales": 1,
     "auxiliares": 0,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 1,
     "comisiones": [
       "MUNICIPAL"
@@ -1171,6 +1198,7 @@
     "municipales": 1,
     "auxiliares": 5,
     "departamentales": 0,
+    "auxiliares_sin_nombre": [],
     "total_comisiones": 6,
     "comisiones": [
       "AUXILIAR 1",
@@ -1212,6 +1240,20 @@
     "municipales": 2,
     "auxiliares": 108,
     "departamentales": 5,
+    "auxiliares_sin_nombre": [
+      "AUXILIAR 1",
+      "AUXILIAR 2",
+      "AUXILIAR 4",
+      "AUXILIAR 13",
+      "AUXILIAR 35",
+      "AUXILIAR 58",
+      "AUXILIAR 75",
+      "AUXILIAR 98",
+      "AUXILIAR 107",
+      "AUXILIAR 116",
+      "AUXILIAR 117",
+      "AUXILIAR 119"
+    ],
     "total_comisiones": 115,
     "comisiones": [
       "AUXILIAR 10",

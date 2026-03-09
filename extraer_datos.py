@@ -38,9 +38,15 @@ for row in ws.iter_rows(min_row=2, values_only=True):
 ws2 = wb['MEDELLIN 2']
 municipio = 'MEDELLIN'
 data[municipio] = {'total_personas': 0, 'municipales': 0, 'auxiliares': 0, 'departamentales': 0,
-                   'comisiones_unicas': set(), 'personas': []}
+                   'comisiones_unicas': set(), 'personas': [], 'auxiliares_sin_nombre': []}
 for row in ws2.iter_rows(min_row=2, values_only=True):
     com_raw = row[0]; nombre = row[1]
+    # Registrar auxiliares sin nombre
+    if not nombre and com_raw is not None:
+        com_str = str(com_raw).strip()
+        if com_str.isdigit():
+            data[municipio]['auxiliares_sin_nombre'].append(f'AUXILIAR {com_raw}')
+        continue
     if not nombre:
         continue
     nombre_str = normalize(nombre)
@@ -76,6 +82,7 @@ for mun, d in data.items():
         'municipales': d['municipales'],
         'auxiliares': d['auxiliares'],
         'departamentales': d.get('departamentales', 0),
+        'auxiliares_sin_nombre': sorted(d.get('auxiliares_sin_nombre', []), key=lambda x: int(x.split()[-1]) if x.split()[-1].isdigit() else 999),
         'total_comisiones': len(d['comisiones_unicas']),
         'comisiones': sorted(list(d['comisiones_unicas'])),
         'personas': d['personas']

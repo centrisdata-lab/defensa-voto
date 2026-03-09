@@ -192,6 +192,12 @@ function abrirDetalle(feature) {
             '<div style="font-size:1.2em;font-weight:700;color:#1d4ed8">' + d.departamentales + '</div>' +
             '<div style="font-size:.65em;color:#666">Departamentales</div></div>';
         }
+        var sinNombre = (d.auxiliares_sin_nombre && d.auxiliares_sin_nombre.length > 0) ? d.auxiliares_sin_nombre.length : 0;
+        if (sinNombre > 0) {
+            resHtml += '<div style="background:#fafafa;border:1px solid #fca5a5;border-radius:4px;padding:5px;text-align:center;grid-column:1/-1;">' +
+            '<div style="font-size:1.2em;font-weight:700;color:#dc2626">' + sinNombre + '</div>' +
+            '<div style="font-size:.65em;color:#666">Auxiliares sin asignar</div></div>';
+        }
         document.getElementById('det-resumen').innerHTML = resHtml;
 
         var byComision = {};
@@ -199,7 +205,16 @@ function abrirDetalle(feature) {
             if (!byComision[p.comision]) byComision[p.comision] = [];
             byComision[p.comision].push(p.nombre);
         });
-        var html = '<div style="font-size:.72em;font-weight:700;color:#7f1d1d;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px">Comisiones y Responsables</div>';
+        var html = '';
+        // Bloque auxiliares sin nombre
+        if (d.auxiliares_sin_nombre && d.auxiliares_sin_nombre.length > 0) {
+            html += '<div style="background:#fff1f2;border:1px dashed #fca5a5;border-radius:4px;padding:6px 8px;margin-bottom:8px">' +
+                '<div style="font-size:.72em;font-weight:700;color:#dc2626;margin-bottom:4px">&#9888; Auxiliares SIN persona asignada (' + d.auxiliares_sin_nombre.length + ')</div>' +
+                '<div style="font-size:.68em;color:#7f1d1d;line-height:1.6">' +
+                d.auxiliares_sin_nombre.join(' &bull; ') +
+                '</div></div>';
+        }
+        html += '<div style="font-size:.72em;font-weight:700;color:#7f1d1d;margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px">Comisiones y Responsables</div>';
         Object.keys(byComision).sort().forEach(function(com) {
             html += '<div style="background:#fef2f2;border-left:3px solid #991b1b;padding:4px 7px;border-radius:0 4px 4px 0;margin-bottom:4px">' +
                 '<div style="font-size:.72em;font-weight:700;color:#7f1d1d;margin-bottom:2px">' + escHtml(com) + '</div>';
