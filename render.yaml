@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: defensa-voto
+    name: estrategia-electoral
     runtime: static
     buildCommand: echo "No build needed"
-    staticPublishPath: .
+    staticPublishPath: ./analisis
     routes:
       - type: rewrite
-        source: /
+        source: /*
         destination: /index.html
